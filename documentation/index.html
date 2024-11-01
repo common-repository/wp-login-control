@@ -1,0 +1,419 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>WP Login Control Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+		.fa { font-size: 30px; width: 30px; margin-right: 10px;}
+		img { vertical-align: top; margin-right: 20px;}
+		h1 {
+			background-image: url("assets/images/logo.png");
+			background-repeat: no-repeat;
+			background-position: center bottom;
+			height: 180px;
+		}
+		.important-note, .trick-note{
+			position: relative;
+			border: 1px solid #F9ADAD;
+			background-color: rgba(255, 101, 101, 0.08);
+			color: #CC0000;
+			font-size: 15px;
+			padding: 5px;
+			padding-left: 40px;
+			border-radius: 5px;
+			
+		}
+		.important-note::before, .trick-note::before {
+			position: absolute;
+			top: calc(50% - 12px);
+			left: 5px;
+			font-family: FontAwesome;
+			content: "\f071";
+			font-size: 24px;
+			color: red;
+		}
+		.trick-note{
+			border: 1px solid #71E977;
+			background-color: rgba(113, 233, 119, 0.43);
+			color: #0D6211;
+		}
+		.trick-note::before{
+			content: "\f085";
+			color: green;
+		}
+		.new::after{
+			content: " new";
+			color: red;
+			vertical-align: super;
+    		font-size: smaller;
+			
+		}
+		.new_::before{
+			position: absolute;
+			left: -60px;
+			content: "new";
+			color: red;
+    		font-size: smaller;
+			
+		}
+		.updated::after{
+			content: " updated";
+			color: orange;
+			vertical-align: super;
+    		font-size: smaller;
+			
+		}
+		.updated_::before{
+			position: absolute;
+			left: -60px;
+			content: "updated";
+			color: orange;
+    		font-size: smaller;
+			
+		}
+		._removed::after{
+			content: " removed";
+			color: darkgrey;
+			vertical-align: super;
+    		font-size: smaller;
+			
+		}
+		._removed_::before{
+			position: absolute;
+			left: -80px;
+			content: "removed";
+			color: darkgrey;
+    		font-size: smaller;
+			
+		}
+		.relative{
+			position: relative;
+		}
+
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;WP Login Control&rdquo; Premium WordPress Plugin Documentation for version 2.0.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;WP Login Control&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 01/25/2017<br>
+					By: Francisco Javier Fortit<br>
+					Email: <a href="mailto:support@wplogincontrol.com">support@wplogincontrol.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my plugin. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/fortit">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+
+		<div class="borderTop" style="padding:20px 40px 22px; background-color:#FFF9EA;"><strong>Licensing Terms</strong>: Please be advised, in order to use the plugin in a legal manner, you need to purchase a separate license for each domain you are going to use the plugin on. <strong>A single license is limited to a single domain/application</strong>. 
+		<br>
+		<em>For more information please refer to the license included with the plugin or <a href="http://themeforest.net/licenses/standard" title="Licensing Terms" target="_blank">Licensing Terms</a> on the ThemeForest site.</em></div>
+
+		<hr>
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li class="updated"><a href="#pluginIntroduction">Introduction</a></li>
+			<li><a href="#loginForms">Forms</a></li>
+			<ul>
+				<li><a href="#Create">Create</a></li>
+				<li><a href="#FormType">Types of forms</a></li>
+				<ul>
+					<li><a href="#Login">Default Login</a></li>
+					<li class="new"><a href="#Shortcodes">Shortcodes</a></li>		
+				</ul>
+				<li><a href="#Edit">Edit</a></li>
+				<li><a href="#Delete">Delete</a></li>
+				<li><a href="#Clone">Clone</a></li>
+				<li><a href="#Preview">Preview</a></li>
+				<li><a href="#Activate">Activate</a></li>
+			</ul>
+			<li><a href="#Menu">Menu</a></li>
+			<li><a href="#Toolboxes">Toolboxes</a></li>
+			<ul>
+				<li><a href="#Picture">Picture box</a></li>
+				<li><a href="#Color">Color</a></li>
+				<li><a href="#TextFont">Text and Font</a></li>
+					<ul>
+						<li class="new"><a href="#GoogleFonts">Google Fonts</a></li>
+						<li class="new"><a href="#FontAwesome">Font Awesome</a></li>
+					</ul>
+				<li><a href="#Boxmodel">Box model</a></li>
+				<li><a href="#Border">Border</a></li>
+				<li><a href="#Flip">Flip</a></li>
+				<li><a href="#Visibility">Visibility options</a></li>
+				<li><a href="#CssEditor">CSS editor</a></li>
+				<li class="new"><a href="#Flex">Flexible Box</a></li>
+				<li class="new"><a href="#Tags">Tags</a></li>
+				<li class="new"><a href="#CodeReplace">Variables</a></li>
+				<li class="_removed"><a href="#Trash">Trash</a></li>
+			</ul>
+			<li><a href="#Contextual">Contextual menu</a></li>
+			<li class="updated"><a href="#Cron">Cron</a></li>
+			<li><a href="#cssFiles">CSS Files ans Structure</a></li>
+			<li><a href="#Sources">Sources and Credits</a></li>
+		</ol>
+		
+		<hr>
+		
+		<h3 id="pluginIntroduction"><strong>A) Introduction</strong> - <a href="#toc">top</a></h3>
+		<p>
+			WP Login Control easily customize your WordPress login page in minutes with no coding skills required.<br>
+			Transform the default log-in page into a professional and unique page that blends nicely with your brand or identity.<br>
+			Create as many forms as you want and activate them individually, randomly or with cron, you can preview and activate them in the backend.<br>
+		</p>
+		<p class="updated_ relative">
+			WP Login Control not only gives style, goes one step further to be a WYSIWYG web Builder, you can create Shortcodes and add new HTML tags, write inside them and style them.
+		</p>
+		<p>
+			This plugin is Multilingual ready, available translations: English and Spanish.
+		</p>
+		
+		<hr>
+
+		<h3 id="loginForms"><strong>B) Creating Forms</strong> - <a href="#toc">top</a></h3>
+		<ul>
+			<li id="Create"><strong>Create</strong></li>
+				<ul>
+					<li>Click on the "Create new Form" button and enter a name of your choice for the new form.</li>
+					<li>Choose the form type between "Login - Default Page" and "Shortcode Object - Blank Page".</li>
+					<li>Finally click the button "Create form".</li>
+				</ul>
+			<li id="FormType"><strong>Types of forms</strong></li>
+				<ul>
+					<li id="Login"><strong>Default login</strong> - This option lets you easily customize your WordPress login page and add new items.</li><br>
+					<li class="new_ relative" id="Shortcodes"><strong>Shortcodes</strong> - This option allows you to easily create new objects such as buttons, banners, boxes, links, etc. and add them as a shortcode.</li>
+
+				</ul>
+			<p>A new line will appear in the forms table, if you put the mouse over, four icons will appear: </p>
+			<li id="Edit"><i class="fa fa-paint-brush" aria-hidden="true"></i><strong>Edit</strong> -  Click this button to edit the form and change its style.</li><br>
+			<li id="Delete"><i class="fa fa-trash" aria-hidden="true"></i><strong>Delete</strong> - Click this button to delete the form.</li><br>
+			<li id="Clone"><i class="fa fa-clone" aria-hidden="true"></i><strong>Clone</strong> - Click this button to Clone or copy the form, a popup form will appear in which you will have to enter the new form's name.</li><br>
+			<li id="Preview"><i class="fa fa-eye" aria-hidden="true"></i><strong>Preview</strong> - Move the cursor over this button and a box appears with the preview of the form.</li><br>
+			<li id="Activate"><strong>Activate</strong> - In the "status" column you can select from three options: active, inactive and crone.<br>
+			By default "Inactive" is selected, the form ( login page or Shortcode ) is not shown.<br>
+			If "Active" is selected the form is shown.<br>
+			If "Cron" is selected, the form is displayed between the start date and the end date that is selected by the user.<br>
+			If more than one form is active or activated by cron at the same time, it will be shown randomly.
+			</li><br>
+		</ul>
+
+
+		<hr>
+		
+		<h3 id="Menu"><strong>C) Menu</strong> - <a href="#toc">top</a></h3>
+		
+		<p>In the area of design we can find four main icons.</p>
+		<p>
+		<i class="fa fa-wrench" aria-hidden="true"></i><strong>Tools</strong> - Click this button to open the toolboxes, click again to close, if there is a box that is child of this, it will also be closed.<br>
+		<i class="fa fa-picture-o" aria-hidden="true"></i><strong>Images</strong> - Click this button to open the picture box, Click again to close.<br>
+		<i class="fa fa-save" aria-hidden="true"></i><strong>Save</strong> - Click this button to save changes.<br>
+		<i class="fa fa-dashboard" aria-hidden="true"></i><strong>Dashboard</strong> - Click this button to return to Dashboard, If the changes have not been saved, they are ignored.<br>
+		</p>
+
+		
+		<hr>
+		
+		<h3 id="Toolboxes"><strong>D) Toolboxes</strong> - <a href="#toc">top</a></h3>
+		
+		<p>All the Toolboxes can be dragged and dropped anywhere on the screen, to facilitate the editing of any element.<br>
+		You can expand or collapse the Toolboxes with the arrow icon. <i class="fa fa-caret-down" aria-hidden="true"></i><br>
+		To close the Toolboxes, click on the cross icon. <i class="fa fa-times" aria-hidden="true"></i><br>
+		To minimize the Toolboxes, click on the underscore icon. <i class="fa fa-window-minimize" aria-hidden="true"></i></p>
+
+		<img src="assets/images/picturebox.png" align="top" alt="picturebox" />
+		<img src="assets/images/toolboxes.png" alt="Toolboxes" />
+
+		<p>We will list all items from left to right and top to bottom.</p>
+		<ul>
+			<li id="Picture"><strong>Picture box</strong> - All images that we use will pass through this box, to upload or choose images we just have to click on the "folder" button &nbsp<i class="fa fa-folder-open" aria-hidden="true"></i>to open the "Media Library" of WordPress.<br>
+			Once you have selected the images you can use them with just drag and drop the image over the item you want.<br>
+			You can re-select more images if necessary or delete them from the box, the images that you do not use will not be added to the final project, it is not necessary to delete them.
+			</li>
+		</ul>
+
+		<p class="important-note">Remember that before using the different tools you have to select the objects or Tags to modify, by default Background is selected.</p>
+		<p class="trick-note">TRICK - Remember that you can use CTRL+CLICK to select or deselect more than one object.</p>
+		
+		<ul>
+			<li id="Color"><strong>Color</strong> - Clicking on this button will bring up the toolbox named "Color".</li><br>
+			<img src="assets/images/vcq_format_48.png" align="top" alt="Color" />
+			<img src="assets/images/Color_toolbox.png" align="top" alt="Color" />
+			<br><br>
+			<p class="important-note">Sometimes if you select a color and it does not change, it is possible that the opacity is set to 0 or "transparent" option is selected.</p>
+
+			<p class="trick-note">TRICK - If you select "border" a box will appear with the four sides of the box. We can select them individually to assign different colors to each side. The center button reverses the selection.</p>
+
+
+			<li id="TextFont"><strong>Text and Font</strong> - Clicking on this button will bring up the toolbox named "Text and Font".</li><br>
+			<p>Once you have selected the objects or tags to modify, you only have to expand the desired Combobox and just move the mouse over the different options we can check the result, finally we will click on the desired option.</p>
+
+			<img src="assets/images/text_field_48.png" align="top" alt="Text and Font" />
+			<img src="assets/images/TextFont_toolbox.png" align="top" alt="Text and Font" />
+			
+			<br><br>
+			<ul>
+				<li id="GoogleFonts" class="new_ relative"><strong>Google Fonts</strong> - Gives you the ability to change the fonts of your text to any of the 800+ available Google Fonts. If you want to use a font, just pick it from the list.</li>
+			</ul>
+				<img src="assets/images/GoogleFonts.png" align="top" style="margin-top:-40px;" alt="Google Fonts" />
+			<ul>
+				<li id="FontAwesome" class="new_ relative"><strong>Font Awesome 4.7</strong> - You only have to Drag and Drop the icons and make infinite combinations of size, color, borders and any CSS property on the icons depending on your need using. You can add links with "A" tag.</li>
+			</ul>
+				<img src="assets/images/FontAwesome.png" align="top" alt="Font Awesome"/>
+			<br><br>
+			
+			<li id="Boxmodel"><strong>Box model</strong> - Clicking on this button will bring up the toolbox named "Box model".</li><br>
+			<p>The operation is equal to "Text and Font" except for "Box Model" that to use the slider first we have to select the numerical boxes that make reference to each side of "Margin, Border and Padding", where we want to apply the changes.</p>
+			<img src="assets/images/box_model_48.png" align="top" alt="Box model" />
+			<img src="assets/images/BoxModel_toolbox.png" align="top" alt="Box model" />
+			<br><br>
+			<p class="trick-note">TRICK - We can select more than one numerical box at a time, either "Margin, Border or Padding" and even combine them.</p>
+			<p class="trick-note">TRICK - If we click on the square where the name of any of the "Margin, Border or Padding" properties is found, all the numerical boxes of that property are selected, deselected or inverted.</p>
+
+			<li id="Border"><strong>Border</strong> - Clicking on this button will bring up the toolbox named "Border".</li><br>
+			<p>As in border colors, we can select the sides of the box to change the line style or the corners for rounding. The center button reverses the selection.</p>
+			<img src="assets/images/border_48.png" align="top" alt="Border" />
+			<img src="assets/images/Border_toolbox.png" align="top" alt="Border" />
+
+			<br><br>
+			<li id="Flip"><strong>Horizontal and Vertical Flip</strong> - Clicking on this buttons selected items will Flip.</li><br>
+			<img src="assets/images/flip_horizontal_48.png" align="top" style="vertical-align: middle;" alt="Flip" /> Horizontal Flip <br>
+			<img src="assets/images/flip_vertical_48.png" align="top" style="vertical-align: middle;" alt="Flip" /> Vertical Flip
+
+			<br><br>
+			<li id="Visibility"><strong>Visibility options</strong> - Clicking on this button will bring up the toolbox named "Visibility options".</li><br>
+			<p>Sliding the buttons to "ON" will activate the desired options.<br>
+			The last three options allow us to edit the different types of forms available, "Login", "Lost you password" and "Register".</p>
+			<img src="assets/images/switch_off_48.png" align="top" alt="Visibility options" />
+			<img src="assets/images/Visibility_toggle.png" align="top" alt="Visibility options" />
+			<br><br>
+			<p class="trick-note">TRICK - Remember to save before leaving the designer.<p>
+
+
+			<li id="CssEditor"><strong>CSS editor</strong> - Clicking on this button will bring up the window named "CSS editor".</li><br>
+			<p>We regularly add new CSS properties, but if you need any CSS property that is not available, you can write your CSS code here.</p>
+			<p class="important-note">The editor does not correct the code errors.</p>
+			<img src="assets/images/code_clipping_48.png" align="top" alt="CSS editor" />
+			<img src="assets/images/CssEditor.png" align="top" alt="CSS editor" />
+			<br><br>
+			<p class="trick-note">TRICK - Remember to put the toggle button to "ON".<br>To add or update the code click &nbsp<i class="fa fa-refresh" aria-hidden="true"></i></p>
+			<p class="trick-note">TRICK - Remember to save before leaving the designer.</p>
+
+			<li id="Flex" class="new_ relative"><strong>Flexible Box</strong> - Clicking on this button will bring up the window named "Flex container & Flex items".</li><br>
+			<p>
+			Flexible boxes (flexbox) ensures that elements behave predictably when the page layout must accommodate different screen sizes and different display devices.
+			</p>
+			<img src="assets/images/flex_48.png" align="top" alt="CSS editor" />
+			<img src="assets/images/Flex.png" align="top" alt="CSS editor" />
+			<br><br>
+			<li id="Tags" class="new_ relative"><strong>Tags</strong> - Clicking on this button will bring up the window named "Tags".</li>
+			</p>Simply drag and drop the HTML tags to the desired location to create the new object.</p>
+			<img src="assets/images/Tags.png" align="top" alt="CSS editor" /><br><br>
+			<p class="trick-note">TRICK - If we right click the "H" button the number of the header will rise, if we click the left button the number will go down.</p>
+			<img src="assets/images/Header.png" align="top" alt="CSS editor" />
+			<img src="assets/images/Header3.png" align="top" alt="CSS editor" /><br><br>
+			<li id="CodeReplace" class="new_ relative"><strong>Variables</strong> - Clicking on this button will bring up the window named "Code variables".</li>
+			</p>Simply drag and drop the variable to the desired location and content will be replaced in the Front-end.</p>
+			<img src="assets/images/Variables.png" align="top" alt="CSS editor" /><br><br>
+			<p class="important-note">At the moment only one variable is available for Shortcodes.</p>
+			<li id="Trash" class="_removed_ relative"><strong>Trash</strong> - Drag an item to the Trash, only new objects created by the user are allowed and it will be deleted (in this version only images).</li><br>
+			<img src="assets/images/trash_48.png" align="top" alt="Trash" /><br><br>
+			<strong><i>Instead you can use Contextual Menu or the DELETE key.</i></strong>
+
+		</ul>
+
+		<hr>
+		
+		<h3 id="Contextual"><strong>E) Contextual menu</strong> - <a href="#toc">top</a></h3>
+
+			 Right click on any object or Tag and a popup menu will appear with more options.<br><br>
+			<img src="assets/images/Contextual.png" align="top" alt="Contextual menu" />
+			<br><br>
+			<p class="trick-note">TRICK - Remember that you can drag the menu for convenience, the menu automatically appears in the position where it can be fully expanded.</p>
+		
+		<hr>
+		
+		
+
+		<h3 id="Cron"><strong>F) Cron</strong> - <a href="#toc">top</a></h3>
+			<p>With Cron we can program when to activate and deactivate the visibility of any form at a specific date and time.</p>
+			<p class="updated_ relative">Shortcodes can also use Cron, for example if we create two banners in two different Shortcodes, we can insert these Shortcodes one after another and will be displayed depending on the cron configuration.</p>
+			<p>Select "Cron" in the "state" column and press &nbsp<i class="fa fa-clock-o" aria-hidden="true"></i><br>
+			Insert the start and end dates, activate the "ON" button and finally click on "save changes".<br><br>
+			A countdown will appear indicating:</p>
+			<ul>
+				<li>
+					Blue - indicates the remaining time for activation.
+				</li>
+				<li>
+					Green - the form is active, indicates the time remaining for deactivation.
+				</li>
+				<li>
+					Gray - the form has not been activated or is disabled automatically when the end date is reached.
+				</li>
+			</ul>
+
+			<p>
+			<img src="assets/images/Cron.png" align="top" alt="Cron" />
+			<br><br>		
+			<p class="important-note">Remember to put the toggle button to "ON" before saving the changes.</p>
+		
+		<hr>
+
+		<h3 id="cssFiles"><strong>G) CSS Files and Structure</strong> - <a href="#toc">top</a></h3>		
+			 When saving a form, two CSS files <FormName.css> and <FormName_preview.css> are created, the first one is loaded in the login page, the second one is used for the preview in the backend. We can find the CSS files in the directory of the plugin in the "CSS" folder.<br><br>
+			<img src="assets/images/Code.png" align="top" alt="CSS Code" />
+			<br><br>
+
+		<hr>
+
+		<h3 id="Sources"><strong>H) Sources and Credits</strong> - <a href="#toc">top</a></h3>	
+
+		<ul>
+		<li><a href="http://jquery.com/" target="_blank">jQuery JavaScript Library</a> by John Resig</li>
+		<li><a href="http://www.eyecon.ro/" target="_blank">Color picker</a> by Stefan Petre</li>
+		<li><a href="http://jonthornton.github.com/jquery-timepicker/" target="_blank">jQuery timepicker</a> by Jon Thornton</li>
+		<li><a href="https://github.com/Askelon/Custom-AJAX-List-Table-Example/" target="_blank">Custom AJAX List Table</a> by Charlie MERLAND</li>
+		<li><a href="https://www.w3schools.com/css/" target="_blank">A completely free developers resource</a> by W3Schools</li>
+
+		</ul>
+
+		<h3>Premium Icons used:</h3>
+
+		<ul>
+		<li><a href="http://www.iconshock.com/?prd=tg2866" target="_blank">Iconshock</a> by iconshock.com</li>
+		</ul>
+
+
+		<h3>Fonts used:</h3>
+
+		<ul>
+		<li><a href="http://fortawesome.github.io/Font-Awesome/" target="_blank" title="Sniglet">Font Awesome</a> created by Dave Gandy</li>
+		</ul>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>

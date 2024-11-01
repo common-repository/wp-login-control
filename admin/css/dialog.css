@@ -1,0 +1,296 @@
+fieldset input.text { margin-bottom:12px; width:95%;  height: 34px; font-size: 24px; }
+fieldset { padding:0; border:0; margin-top:25px; }
+h1 { font-size: 1.2em; margin: .6em 0; }
+.ui-dialog .ui-state-error { padding: .3em; }
+.validateTips { border: 1px solid transparent; padding: 0.3em; }
+
+#dialog-form{
+    overflow-x: hidden;
+    }
+
+.custom-icon-menu {
+
+    float: left;
+    padding-right: 5px;
+}
+
+.cron-icon{
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+.action-icon, .action-button {
+    visibility: hidden;
+}
+
+th#id_Form{
+    width: 25%;
+}
+th#Type{
+    width: 10%;
+}
+th#State{
+    width: 15%;
+}
+th#frontend{
+    width: 20%;
+}
+th#shortcode{
+    width: 30%;
+}
+
+#form-new-form{
+    display: none;
+}
+#form-content{
+    width: 900px;
+    height: 400px;
+    background-color: white;
+}
+
+#form-content div{
+    float: left;
+    
+    width: 50%;
+    height: 90%;
+    box-sizing: border-box;
+    /*border: 1px solid red;*/
+}
+
+#btn-clone-form{
+    display: none;
+}
+
+#form-content div#btn-new-form, #form-content div#btn-clone-form{
+     background-color: lightskyblue;
+     /*width: 50%;*/
+     height: 10%;
+     color: white;
+     font-size: 20px;
+     line-height: 35px;
+     vertical-align: middle;
+     cursor: pointer;
+
+     transition-property: background-color;
+     transition-duration: 0.5s;
+
+}
+
+#form-content div#btn-new-form:hover, #form-content div#btn-clone-form:hover{
+    background-color: #6CA8CD !important;
+}
+
+#form-content div#btn-new-form span, #form-content div#btn-clone-form span{
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.infoPreview{
+    position: relative;
+    top: -20px;
+    height: 10%;
+    font-size: 20px;
+    line-height: 35px;
+    vertical-align: middle;
+}
+
+.form-centered { /* centered on screen */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -450px;
+  padding: 0;
+}
+
+.ajax_box_waitting, .lightbox{
+
+    position: fixed !important;
+    top: 0% !important;
+    left: 0% !important;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 999999;
+    /*opacity: .80;*/
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+
+}
+
+.fa-spinner{
+    font-size: 200px;
+    width: 200px;
+    height: 200px;
+    color: white;
+    
+
+}
+
+.ajax_box_waitting span {
+    position: absolute;
+    font-size: 18px;
+    color: white;
+    width: 200px;
+    line-height: 200px;
+    vertical-align: middle;
+
+}
+
+.centered { /* centered on screen */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -100px;
+}
+
+.newform{
+    position: absolute;
+    left: 160px;
+    top: 50px;
+}
+
+
+.tool_tip_container{
+
+    background-color: white;
+    color: black;
+    border-radius: 6px;
+    position: fixed;
+    border: 4px solid black;
+    transform: scale(0.25, 0.25);
+    z-index: 999;
+    overflow: hidden;
+}
+
+.tool_tip_container::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+}
+
+
+.tooltipimage {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+
+.action-icon:hover, .cron-icon:hover{
+
+    /*border: 1px solid #f90;*/
+    color: blue;
+    cursor: pointer;
+
+}
+
+.action-icon, .cron-icon {
+
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    
+    font-size: 32px;
+    text-align: center;
+
+    line-height: 32px;
+    vertical-align: middle;
+    margin-left: 10px;
+
+    color: gray;
+}
+
+.action-icon i , .cron-icon i {
+    line-height: 32px;
+    vertical-align: middle;
+}
+
+.formPreview {
+    vertical-align: middle;
+}
+.formPreview i {
+    line-height: 350px;
+    font-size: 150px;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+}
+
+/************ buttons ***/
+
+.loin-ctrl-main-button{
+    position : relative;
+    top : 0;
+    left : 0;
+    width : 150px;
+    height : 150px;
+    background-color : transparent;
+    border-top-width : 2px;
+    border-bottom-width : 50px;
+    border-left-width : 2px;
+    border-right-width : 2px;
+    border-top-color : rgba(222,222,222,1);
+    border-right-color : rgba(222,222,222,1);
+    border-left-color : rgba(222,222,222,1);
+    border-bottom-color : rgba(222,222,222,1);
+    border-top-style : solid;
+    border-right-style : solid;
+    border-left-style : solid;
+    border-bottom-style : solid;
+    box-sizing : border-box;
+    display : inline-block;
+    color : rgba(110,110,110,1);
+    text-align : center;
+    font-size : 16px;
+    cursor: pointer;
+
+    transition-property: border-color;
+    transition-duration: 0.3s;
+}
+DIV.loin-ctrl-main-button:hover {
+    color : rgba(255,255,255,1);
+    border-top-color : rgba(0,0,0,1);
+    border-right-color : rgba(0,0,0,1);
+    border-left-color : rgba(0,0,0,1);
+    border-bottom-color : rgba(0,0,0,1);
+    border-bottom-width : 50px;
+    box-sizing : border-box;
+}
+DIV.loin-ctrl-main-button I{
+    position : static;
+    top : 0;
+    left : 0;
+    font-size : 64px;
+    color : rgb(0, 0, 0);
+    width : 100%;
+    text-align : center;
+    line-height : 100px;
+}
+DIV.loin-ctrl-main-button SPAN{
+    position : static;
+    top : 0;
+    left : 0;
+    width : 100%;
+    height : 50px;
+    border-width : 1px;
+    border-style : solid;
+    border-color : rgb(0, 0, 0);
+    background-color : transparent;
+    display : block;
+    border-top-width : 0px;
+    border-bottom-width : 0px;
+    border-left-width : 0px;
+    border-right-width : 0px;
+    text-align : center;
+    line-height : 50px;
+    font-size : 17px;
+}

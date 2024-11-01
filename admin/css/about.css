@@ -1,0 +1,83 @@
+.intro-text{
+    font-size: 20px;
+    color: gray;
+}
+
+
+p{
+    font-weight: bold;
+    line-height: 35px;
+    vertical-align: middle;
+}
+
+.fs-version{
+    padding-top: 20px;
+    font-size: 25px;
+}
+.fs-new::before{
+    font-family: FontAwesome;
+    content: "\f185";
+    color: green;
+    font-size: 25px;
+    line-height: 35px;
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+
+    padding-right: 5px;
+}
+
+.fs-bugfixes::before{
+    font-family: FontAwesome;
+    content: "\f0ad";
+    color: red;
+    font-size: 25px;
+    line-height: 35px;
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+
+    padding-right: 5px;
+}
+
+.fs-changes::before{
+    font-family: FontAwesome;
+    content: "\f021";
+    color: orange;
+    font-size: 25px;
+    line-height: 35px;
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+
+    padding-right: 5px;
+}
+
+.wrap ul{
+    list-style-position: inside;
+}
+
+.wrap li {
+    list-style-type: circle;
+    margin-left: 35px;
+}
+
+.wrap ul.help li {
+    list-style-type: none;
+}
+
+.wrap ul ul{
+    list-style-position: outside;
+}
+
+.wrap li li {
+
+    list-style-type: square;
+    margin-left: 45px;
+}

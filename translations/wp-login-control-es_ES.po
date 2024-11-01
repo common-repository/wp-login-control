@@ -1,0 +1,2186 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-01-02 11:26+0100\n"
+"PO-Revision-Date: 2018-01-02 11:27+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: translations\n"
+
+#: addons/Cron/includes/cron_constructor.php:5
+msgid "Days"
+msgstr "Días"
+
+#: addons/Cron/includes/cron_constructor.php:6
+msgid "Hours"
+msgstr "Horas"
+
+#: addons/Cron/includes/cron_constructor.php:7
+msgid "Minutes"
+msgstr "Minutos"
+
+#: addons/Cron/includes/cron_constructor.php:8
+msgid "Seconds"
+msgstr "Segundos"
+
+#: addons/Cron/includes/cron_constructor.php:17
+msgid "Save Changes"
+msgstr "Guardar Cambios"
+
+#: addons/Cron/includes/cron_constructor.php:18
+msgid "From"
+msgstr "Desde"
+
+#: addons/Cron/includes/cron_constructor.php:20
+msgid "To"
+msgstr "Hasta"
+
+#: addons/VodPlus/includes/img_flex_box_constructor.php:7
+#: admin/includes/img_flex_box_constructor.php:7
+msgid "Flex container"
+msgstr "Contenedor Flexible"
+
+#: addons/VodPlus/includes/img_flex_box_constructor.php:14
+#: admin/includes/contextual_translate.php:161
+#: admin/includes/img_flex_box_constructor.php:14
+msgid "Flex"
+msgstr "Flexible"
+
+#: addons/VodPlus/includes/img_flex_box_constructor.php:15
+#: admin/includes/contextual_translate.php:163
+#: admin/includes/img_flex_box_constructor.php:15
+msgid "Inline flex"
+msgstr "Flexible en línea"
+
+#: addons/VodPlus/includes/img_flex_box_constructor.php:25
+#: admin/includes/img_flex_box_constructor.php:25
+msgid "Row"
+msgstr "Fila"
+
+#: addons/VodPlus/includes/img_flex_box_constructor.php:26
+#: admin/includes/img_flex_box_constructor.php:26
+msgid "Row reverse"
+msgstr "Fila inversa"
+
+#: addons/VodPlus/includes/img_flex_box_constructor.php:27
+#: admin/includes/img_flex_box_constructor.php:27
+msgid "Column"
+msgstr "Column"
+
+#: addons/VodPlus/includes/img_flex_box_constructor.php:28
+#: admin/includes/img_flex_box_constructor.php:28
+msgid "Column reverse"
+msgstr "Columna inversa"
+
+#: addons/VodPlus/includes/img_flex_box_constructor.php:38
+msgid "No wrap"
+msgstr "Sin envolver"
+
+#: addons/VodPlus/includes/img_flex_box_constructor.php:39
+#: addons/VodPlus/includes/img_flex_box_constructor.php:116
+#: admin/includes/img_flex_box_constructor.php:40
+msgid "Wrap"
+msgstr "Envolver"
+
+#: addons/VodPlus/includes/img_flex_box_constructor.php:40
+msgid "Wrap reverse"
+msgstr "Envolver reverso"
+
+#: addons/VodPlus/includes/img_flex_box_constructor.php:50
+#: addons/VodPlus/includes/img_flex_box_constructor.php:65
+#: addons/VodPlus/includes/img_flex_box_constructor.php:79
+#: addons/VodPlus/includes/img_flex_box_constructor.php:99
+msgid "Flex start"
+msgstr "Inicio de Flex"
+
+#: addons/VodPlus/includes/img_flex_box_constructor.php:51
+#: addons/VodPlus/includes/img_flex_box_constructor.php:66
+#: addons/VodPlus/includes/img_flex_box_constructor.php:80
+#: addons/VodPlus/includes/img_flex_box_constructor.php:100
+msgid "Flex end"
+msgstr "final Flex"
+
+#: addons/VodPlus/includes/img_flex_box_constructor.php:52
+#: addons/VodPlus/includes/img_flex_box_constructor.php:67
+#: addons/VodPlus/includes/img_flex_box_constructor.php:81
+#: addons/VodPlus/includes/img_flex_box_constructor.php:101
+#: admin/includes/contextual_translate.php:42
+msgid "Center"
+msgstr "Centrar"
+
+#: addons/VodPlus/includes/img_flex_box_constructor.php:53
+#: addons/VodPlus/includes/img_flex_box_constructor.php:82
+msgid "Space between"
+msgstr "Espacio entre"
+
+#: addons/VodPlus/includes/img_flex_box_constructor.php:54
+#: addons/VodPlus/includes/img_flex_box_constructor.php:83
+msgid "Space around"
+msgstr "Espacio alrededor"
+
+#: addons/VodPlus/includes/img_flex_box_constructor.php:55
+msgid "Space evenly"
+msgstr "Espacio uniforme"
+
+#: addons/VodPlus/includes/img_flex_box_constructor.php:68
+#: addons/VodPlus/includes/img_flex_box_constructor.php:102
+#: addons/VodPlus/includes/img_text_font_constructor.php:230
+msgid "Baseline"
+msgstr "Base"
+
+#: addons/VodPlus/includes/img_flex_box_constructor.php:69
+#: addons/VodPlus/includes/img_flex_box_constructor.php:84
+#: addons/VodPlus/includes/img_flex_box_constructor.php:103
+msgid "Stretch"
+msgstr "Extender"
+
+#: addons/VodPlus/includes/img_flex_box_constructor.php:91
+msgid "Flex items"
+msgstr "Elementos flexibles"
+
+#: addons/VodPlus/includes/img_flex_box_constructor.php:98
+#: addons/VodPlus/includes/img_text_font_constructor.php:513
+#: admin/includes/contextual_translate.php:19
+#: admin/includes/img_box_model_constructor.php:67
+#: admin/includes/img_box_model_constructor.php:113
+#: admin/includes/img_box_model_constructor.php:140
+#: admin/includes/img_box_model_constructor.php:171
+#: admin/includes/img_box_model_constructor.php:197
+#: admin/includes/img_box_model_constructor.php:223
+#: admin/includes/img_box_model_constructor.php:249
+msgid "Auto"
+msgstr "Auto"
+
+#: addons/VodPlus/includes/img_flex_box_constructor.php:114
+#: admin/includes/contextual_translate.php:158
+#: admin/includes/img_flex_box_constructor.php:38
+msgid "Display"
+msgstr "Mostrar"
+
+#: addons/VodPlus/includes/img_flex_box_constructor.php:115
+#: addons/VodPlus/includes/img_text_font_constructor.php:24
+#: admin/includes/img_flex_box_constructor.php:39
+#: admin/includes/img_text_font_constructor.php:24
+msgid "Direction"
+msgstr "Dirección"
+
+#: addons/VodPlus/includes/img_flex_box_constructor.php:117
+#: admin/includes/img_flex_box_constructor.php:41
+msgid "Justify"
+msgstr "Justificar"
+
+#: addons/VodPlus/includes/img_flex_box_constructor.php:118
+#: admin/includes/img_flex_box_constructor.php:42
+msgid "Align items"
+msgstr "Alinear elem."
+
+#: addons/VodPlus/includes/img_flex_box_constructor.php:119
+#: admin/includes/img_flex_box_constructor.php:43
+msgid "Align content"
+msgstr "Alinear cont."
+
+#: addons/VodPlus/includes/img_flex_box_constructor.php:120
+#: admin/includes/img_flex_box_constructor.php:44
+msgid "Align self"
+msgstr "Alinearse"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:17
+#: admin/includes/img_text_font_constructor.php:17
+msgid "Align"
+msgstr "Alinear"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:18
+#: admin/includes/img_text_font_constructor.php:18
+msgid "Decoration"
+msgstr "Decoración"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:19
+#: admin/includes/img_text_font_constructor.php:19
+msgid "Transform"
+msgstr "Convertir"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:20
+#: admin/includes/img_text_font_constructor.php:20
+msgid "Family"
+msgstr "Familia"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:21
+#: admin/includes/img_box_border_constructor.php:48
+#: admin/includes/img_text_font_constructor.php:21
+msgid "Style"
+msgstr "Estilo"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:22
+#: admin/includes/img_text_font_constructor.php:22
+msgid "Variant"
+msgstr "Variante"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:23
+#: admin/includes/img_text_font_constructor.php:23
+msgid "Weight"
+msgstr "Peso"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:25
+#: admin/includes/contextual_translate.php:52
+#: admin/includes/img_text_font_constructor.php:25
+msgid "Size"
+msgstr "tamaño"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:26
+#: admin/includes/contextual_translate.php:15
+#: admin/includes/img_text_font_constructor.php:26
+msgid "Overflow"
+msgstr "Desbordamiento"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:27
+msgid "Vertical align"
+msgstr "Al. vertical"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:28
+#: admin/includes/img_text_font_constructor.php:27
+msgid "Indent"
+msgstr "Sangrado"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:29
+#: admin/includes/img_text_font_constructor.php:28
+msgid "Letter&nbsp;Spacing"
+msgstr "Sep.&nbsp;letras"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:30
+#: admin/includes/img_text_font_constructor.php:29
+msgid "Line Height"
+msgstr "Altura línea"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:31
+#: admin/includes/img_text_font_constructor.php:30
+msgid "Word&nbsp;Spacing"
+msgstr "Sep.&nbsp;palabras"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:32
+#: admin/includes/img_box_model_constructor.php:541
+#: admin/includes/img_text_font_constructor.php:31
+msgid "Horitzontal"
+msgstr "Horizontal"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:33
+#: admin/includes/img_box_model_constructor.php:542
+#: admin/includes/img_text_font_constructor.php:32
+msgid "Vertical"
+msgstr "Vertical"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:34
+#: admin/includes/img_box_model_constructor.php:543
+#: admin/includes/img_text_font_constructor.php:33
+msgid "Blur"
+msgstr "Difuminar"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:35
+#: admin/includes/contextual_translate.php:32
+#: admin/includes/img_box_model_constructor.php:544
+#: admin/includes/img_color_picker_constructor.php:9
+#: admin/includes/img_text_font_constructor.php:34
+msgid "Color"
+msgstr "Color"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:39
+#: admin/includes/img_color_picker_constructor.php:17
+#: admin/includes/img_text_font_constructor.php:38
+msgid "Text"
+msgstr "Texto"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:50
+#: admin/includes/img_text_font_constructor.php:49
+msgid "Start"
+msgstr "Inicio"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:51
+#: addons/VodPlus/includes/img_text_font_constructor.php:66
+#: addons/VodPlus/includes/img_text_font_constructor.php:81
+#: addons/VodPlus/includes/img_text_font_constructor.php:106
+#: addons/VodPlus/includes/img_text_font_constructor.php:131
+#: addons/VodPlus/includes/img_text_font_constructor.php:156
+#: addons/VodPlus/includes/img_text_font_constructor.php:169
+#: addons/VodPlus/includes/img_text_font_constructor.php:194
+#: addons/VodPlus/includes/img_text_font_constructor.php:207
+#: addons/VodPlus/includes/img_text_font_constructor.php:240
+#: addons/VodPlus/includes/img_text_font_constructor.php:269
+#: addons/VodPlus/includes/img_text_font_constructor.php:296
+#: addons/VodPlus/includes/img_text_font_constructor.php:322
+#: addons/VodPlus/includes/img_text_font_constructor.php:481
+#: addons/VodPlus/includes/img_text_font_constructor.php:514
+#: addons/VodPlus/includes/img_text_font_constructor.php:537
+#: addons/VodPlus/includes/img_text_font_constructor.php:560
+#: addons/VodPlus/includes/img_text_font_constructor.php:585
+#: addons/VodPlus/includes/img_text_font_constructor.php:599
+#: addons/VodPlus/includes/img_text_font_constructor.php:688
+#: addons/VodPlus/includes/img_text_font_constructor.php:723
+#: addons/VodPlus/includes/img_text_font_constructor.php:737
+#: addons/VodPlus/includes/img_text_font_constructor.php:750
+#: addons/VodPlus/includes/img_text_font_constructor.php:774
+#: admin/includes/contextual_translate.php:44
+#: admin/includes/img_box_model_constructor.php:88
+#: admin/includes/img_box_model_constructor.php:114
+#: admin/includes/img_box_model_constructor.php:141
+#: admin/includes/img_box_model_constructor.php:172
+#: admin/includes/img_box_model_constructor.php:198
+#: admin/includes/img_box_model_constructor.php:224
+#: admin/includes/img_box_model_constructor.php:250
+#: admin/includes/img_box_model_constructor.php:269
+#: admin/includes/img_box_model_constructor.php:298
+#: admin/includes/img_box_model_constructor.php:324
+#: admin/includes/img_box_model_constructor.php:350
+#: admin/includes/img_box_model_constructor.php:513
+#: admin/includes/img_text_font_constructor.php:50
+#: admin/includes/img_text_font_constructor.php:65
+#: admin/includes/img_text_font_constructor.php:90
+#: admin/includes/img_text_font_constructor.php:120
+#: admin/includes/img_text_font_constructor.php:146
+#: admin/includes/img_text_font_constructor.php:172
+#: admin/includes/img_text_font_constructor.php:335
+#: admin/includes/img_text_font_constructor.php:397
+#: admin/includes/img_text_font_constructor.php:432
+msgid "Initial"
+msgstr "Inicial"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:52
+#: addons/VodPlus/includes/img_text_font_constructor.php:67
+#: addons/VodPlus/includes/img_text_font_constructor.php:82
+#: addons/VodPlus/includes/img_text_font_constructor.php:107
+#: addons/VodPlus/includes/img_text_font_constructor.php:132
+#: addons/VodPlus/includes/img_text_font_constructor.php:157
+#: addons/VodPlus/includes/img_text_font_constructor.php:170
+#: addons/VodPlus/includes/img_text_font_constructor.php:195
+#: addons/VodPlus/includes/img_text_font_constructor.php:208
+#: addons/VodPlus/includes/img_text_font_constructor.php:241
+#: addons/VodPlus/includes/img_text_font_constructor.php:270
+#: addons/VodPlus/includes/img_text_font_constructor.php:297
+#: addons/VodPlus/includes/img_text_font_constructor.php:323
+#: addons/VodPlus/includes/img_text_font_constructor.php:482
+#: addons/VodPlus/includes/img_text_font_constructor.php:515
+#: addons/VodPlus/includes/img_text_font_constructor.php:538
+#: addons/VodPlus/includes/img_text_font_constructor.php:561
+#: addons/VodPlus/includes/img_text_font_constructor.php:586
+#: addons/VodPlus/includes/img_text_font_constructor.php:600
+#: addons/VodPlus/includes/img_text_font_constructor.php:689
+#: addons/VodPlus/includes/img_text_font_constructor.php:724
+#: addons/VodPlus/includes/img_text_font_constructor.php:738
+#: addons/VodPlus/includes/img_text_font_constructor.php:751
+#: addons/VodPlus/includes/img_text_font_constructor.php:775
+#: admin/includes/contextual_translate.php:11
+#: admin/includes/img_box_model_constructor.php:68
+#: admin/includes/img_box_model_constructor.php:89
+#: admin/includes/img_box_model_constructor.php:115
+#: admin/includes/img_box_model_constructor.php:142
+#: admin/includes/img_box_model_constructor.php:173
+#: admin/includes/img_box_model_constructor.php:199
+#: admin/includes/img_box_model_constructor.php:225
+#: admin/includes/img_box_model_constructor.php:251
+#: admin/includes/img_box_model_constructor.php:270
+#: admin/includes/img_box_model_constructor.php:299
+#: admin/includes/img_box_model_constructor.php:325
+#: admin/includes/img_box_model_constructor.php:351
+#: admin/includes/img_box_model_constructor.php:514
+#: admin/includes/img_text_font_constructor.php:51
+#: admin/includes/img_text_font_constructor.php:66
+#: admin/includes/img_text_font_constructor.php:91
+#: admin/includes/img_text_font_constructor.php:121
+#: admin/includes/img_text_font_constructor.php:147
+#: admin/includes/img_text_font_constructor.php:173
+#: admin/includes/img_text_font_constructor.php:336
+#: admin/includes/img_text_font_constructor.php:398
+#: admin/includes/img_text_font_constructor.php:433
+msgid "Inherit"
+msgstr "Heredar"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:78
+msgid "Capitalize"
+msgstr "Capitalizar"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:79
+msgid "Uppercase"
+msgstr "Mayúscula"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:80
+msgid "Lowercase"
+msgstr "Minúscula"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:93
+#: addons/VodPlus/includes/img_text_font_constructor.php:118
+#: addons/VodPlus/includes/img_text_font_constructor.php:143
+#: addons/VodPlus/includes/img_text_font_constructor.php:181
+#: addons/VodPlus/includes/img_text_font_constructor.php:219
+#: addons/VodPlus/includes/img_text_font_constructor.php:255
+#: addons/VodPlus/includes/img_text_font_constructor.php:282
+#: addons/VodPlus/includes/img_text_font_constructor.php:308
+#: addons/VodPlus/includes/img_text_font_constructor.php:526
+#: addons/VodPlus/includes/img_text_font_constructor.php:572
+#: addons/VodPlus/includes/img_text_font_constructor.php:701
+#: admin/includes/contextual_translate.php:47
+#: admin/includes/img_box_border_constructor.php:33
+#: admin/includes/img_box_model_constructor.php:54
+#: admin/includes/img_box_model_constructor.php:100
+#: admin/includes/img_box_model_constructor.php:127
+#: admin/includes/img_box_model_constructor.php:158
+#: admin/includes/img_box_model_constructor.php:184
+#: admin/includes/img_box_model_constructor.php:210
+#: admin/includes/img_box_model_constructor.php:236
+#: admin/includes/img_box_model_constructor.php:284
+#: admin/includes/img_box_model_constructor.php:310
+#: admin/includes/img_box_model_constructor.php:336
+#: admin/includes/img_text_font_constructor.php:77
+#: admin/includes/img_text_font_constructor.php:106
+#: admin/includes/img_text_font_constructor.php:132
+#: admin/includes/img_text_font_constructor.php:158
+#: admin/includes/img_text_font_constructor.php:410
+msgid "Absolute Lengths"
+msgstr "Longitudes absolutas"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:100
+#: addons/VodPlus/includes/img_text_font_constructor.php:125
+#: addons/VodPlus/includes/img_text_font_constructor.php:150
+#: addons/VodPlus/includes/img_text_font_constructor.php:188
+#: addons/VodPlus/includes/img_text_font_constructor.php:227
+#: addons/VodPlus/includes/img_text_font_constructor.php:262
+#: addons/VodPlus/includes/img_text_font_constructor.php:289
+#: addons/VodPlus/includes/img_text_font_constructor.php:315
+#: addons/VodPlus/includes/img_text_font_constructor.php:708
+#: admin/includes/contextual_translate.php:48
+#: admin/includes/img_box_border_constructor.php:35
+#: admin/includes/img_box_model_constructor.php:61
+#: admin/includes/img_box_model_constructor.php:107
+#: admin/includes/img_box_model_constructor.php:134
+#: admin/includes/img_box_model_constructor.php:165
+#: admin/includes/img_box_model_constructor.php:191
+#: admin/includes/img_box_model_constructor.php:217
+#: admin/includes/img_box_model_constructor.php:243
+#: admin/includes/img_box_model_constructor.php:291
+#: admin/includes/img_box_model_constructor.php:317
+#: admin/includes/img_box_model_constructor.php:343
+#: admin/includes/img_text_font_constructor.php:84
+#: admin/includes/img_text_font_constructor.php:113
+#: admin/includes/img_text_font_constructor.php:139
+#: admin/includes/img_text_font_constructor.php:165
+#: admin/includes/img_text_font_constructor.php:417
+msgid "Relative Lengths"
+msgstr "Longitudes relativas"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:104
+#: addons/VodPlus/includes/img_text_font_constructor.php:128
+#: addons/VodPlus/includes/img_text_font_constructor.php:153
+#: addons/VodPlus/includes/img_text_font_constructor.php:191
+#: addons/VodPlus/includes/img_text_font_constructor.php:239
+#: addons/VodPlus/includes/img_text_font_constructor.php:266
+#: addons/VodPlus/includes/img_text_font_constructor.php:293
+#: addons/VodPlus/includes/img_text_font_constructor.php:319
+#: addons/VodPlus/includes/img_text_font_constructor.php:511
+#: addons/VodPlus/includes/img_text_font_constructor.php:534
+#: addons/VodPlus/includes/img_text_font_constructor.php:580
+#: addons/VodPlus/includes/img_text_font_constructor.php:712
+#: admin/includes/contextual_translate.php:49
+#: admin/includes/img_box_model_constructor.php:65
+#: admin/includes/img_box_model_constructor.php:111
+#: admin/includes/img_box_model_constructor.php:138
+#: admin/includes/img_box_model_constructor.php:169
+#: admin/includes/img_box_model_constructor.php:195
+#: admin/includes/img_box_model_constructor.php:221
+#: admin/includes/img_box_model_constructor.php:247
+#: admin/includes/img_box_model_constructor.php:295
+#: admin/includes/img_box_model_constructor.php:321
+#: admin/includes/img_box_model_constructor.php:347
+#: admin/includes/img_box_model_constructor.php:511
+#: admin/includes/img_text_font_constructor.php:87
+#: admin/includes/img_text_font_constructor.php:117
+#: admin/includes/img_text_font_constructor.php:143
+#: admin/includes/img_text_font_constructor.php:169
+#: admin/includes/img_text_font_constructor.php:333
+#: admin/includes/img_text_font_constructor.php:421
+msgid "Other lengths"
+msgstr "Otras medidas"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:130
+#: addons/VodPlus/includes/img_text_font_constructor.php:155
+#: addons/VodPlus/includes/img_text_font_constructor.php:193
+#: addons/VodPlus/includes/img_text_font_constructor.php:536
+#: addons/VodPlus/includes/img_text_font_constructor.php:734
+#: addons/VodPlus/includes/img_text_font_constructor.php:748
+#: addons/VodPlus/includes/img_text_font_constructor.php:761
+#: admin/includes/contextual_translate.php:24
+#: admin/includes/img_text_font_constructor.php:89
+msgid "Normal"
+msgstr "Normal"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:167
+msgid "Ltr (left to right)"
+msgstr "Ltr (de izquierda a derecha)"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:168
+msgid "Rtl (right to left)"
+msgstr "Rtl (de derecha a izquierda)"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:205
+msgid "Clips the text"
+msgstr "Recortar el texto"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:206
+msgid "Ellipsis ..."
+msgstr "Puntos suspensivos ..."
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:231
+msgid "Sub"
+msgstr "Sub"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:232
+msgid "Super"
+msgstr "Super"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:233
+#: admin/includes/contextual_translate.php:179
+#: admin/includes/img_box_model_constructor.php:13
+msgid "Top"
+msgstr "Superior"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:234
+msgid "Text top"
+msgstr "Texto arriba"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:235
+msgid "Middle"
+msgstr "Medio"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:236
+#: admin/includes/contextual_translate.php:180
+#: admin/includes/img_box_model_constructor.php:14
+msgid "Bottom"
+msgstr "Pte. baja"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:237
+msgid "Text bottom"
+msgstr "Texto abajo"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:247
+#: admin/includes/contextual_translate.php:187
+#: admin/includes/img_text_font_constructor.php:98
+msgid "Text Shadow"
+msgstr "Sombra del texto"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:268
+#: addons/VodPlus/includes/img_text_font_constructor.php:295
+#: addons/VodPlus/includes/img_text_font_constructor.php:321
+#: addons/VodPlus/includes/img_text_font_constructor.php:480
+#: addons/VodPlus/includes/img_text_font_constructor.php:548
+#: addons/VodPlus/includes/img_text_font_constructor.php:597
+#: addons/VodPlus/includes/img_text_font_constructor.php:619
+#: admin/includes/contextual_translate.php:74
+#: admin/includes/contextual_translate.php:176
+#: admin/includes/img_box_model_constructor.php:297
+#: admin/includes/img_box_model_constructor.php:323
+#: admin/includes/img_box_model_constructor.php:349
+#: admin/includes/img_box_model_constructor.php:512
+#: admin/includes/img_text_font_constructor.php:119
+#: admin/includes/img_text_font_constructor.php:145
+#: admin/includes/img_text_font_constructor.php:171
+#: admin/includes/img_text_font_constructor.php:334
+msgid "None"
+msgstr "Ninguna"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:334
+#: admin/includes/img_box_model_constructor.php:362
+#: admin/includes/img_text_font_constructor.php:184
+msgid "Color Names"
+msgstr "Nombres de color"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:493
+msgid "Columns"
+msgstr "Columnas"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:549
+#: admin/includes/contextual_translate.php:17
+msgid "Hidden"
+msgstr "Oculto"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:550
+msgid "Dotted"
+msgstr "Puntos"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:552
+msgid "Dashed"
+msgstr "Discontinua"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:553
+#: admin/includes/img_color_picker_constructor.php:35
+msgid "Solid"
+msgstr "Sólido"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:554
+msgid "Double"
+msgstr "Doble"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:555
+msgid "Groove"
+msgstr "Ranurado"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:556
+msgid "Ridge"
+msgstr "Cresta"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:557
+msgid "Inset"
+msgstr "Interior"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:558
+msgid "Outset"
+msgstr "Exterior"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:582
+#: addons/VodPlus/includes/img_text_font_constructor.php:714
+#: admin/includes/img_text_font_constructor.php:423
+msgid "Medium"
+msgstr "Medio"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:583
+msgid "Thin"
+msgstr "Delgado"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:584
+msgid "Thick"
+msgstr "Grueso"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:598
+msgid "All"
+msgstr "Todo"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:608
+msgid "Lists"
+msgstr "Listas"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:614
+msgid "Disc"
+msgstr "Disco"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:615
+msgid "Circle"
+msgstr "Circulo"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:616
+msgid "Square"
+msgstr "Cuadrado"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:617
+msgid "Upper Roman"
+msgstr "Roman Superior"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:618
+msgid "Lower Aplha"
+msgstr "Alpha Inferior"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:628
+msgid "Inside"
+msgstr "Dentro"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:629
+msgid "Outside"
+msgstr "Fuera"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:637
+msgid "Font & Google Fonts"
+msgstr "Fuente y fuentes de Google"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:715
+#: admin/includes/img_text_font_constructor.php:424
+msgid "xx-small"
+msgstr "xx-pequeño"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:716
+#: admin/includes/img_text_font_constructor.php:425
+msgid "Extra small"
+msgstr "Extra pequeño"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:717
+#: admin/includes/img_text_font_constructor.php:426
+msgid "Small"
+msgstr "Pequeño"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:718
+#: admin/includes/img_text_font_constructor.php:427
+msgid "Large"
+msgstr "Grande"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:719
+#: admin/includes/img_text_font_constructor.php:428
+msgid "Extra large"
+msgstr "Extra grande"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:720
+#: admin/includes/img_text_font_constructor.php:429
+msgid "xx-large"
+msgstr "xx-grande"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:721
+#: admin/includes/img_text_font_constructor.php:430
+msgid "smaller than parent"
+msgstr "Más pequeño que el padre"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:722
+#: admin/includes/img_text_font_constructor.php:431
+msgid "larger than parent"
+msgstr "Mayor que el padre"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:735
+msgid "Italic"
+msgstr "Cursiva"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:736
+msgid "Oblique"
+msgstr "Oblicuo"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:749
+msgid "Small-caps"
+msgstr "Letras minúsculas"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:762
+msgid "Bold"
+msgstr "Negrita"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:763
+msgid "Bolder"
+msgstr "Más negrita"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:764
+msgid "Lighter"
+msgstr "Más ligero"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:780
+#: admin/includes/img_text_font_constructor.php:439
+msgid "Font Awesome"
+msgstr "Font Awesome"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:806
+#: admin/includes/functions.php:686 classes/class.Forms_List_Table.php:134
+msgid "Type"
+msgstr "Tipo"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:807
+#: admin/includes/contextual_translate.php:6
+msgid "Position"
+msgstr "Posición"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:808
+msgid "Count"
+msgstr "Numero"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:809
+msgid "Gap"
+msgstr "Espacio"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:810
+msgid "Rule style"
+msgstr "Estilo regla"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:811
+msgid "Rule Width"
+msgstr "Ancho regla"
+
+#: addons/VodPlus/includes/img_text_font_constructor.php:812
+msgid "Span"
+msgstr "Espacio"
+
+#: addons/VodPlus/includes/load_css_form.php:9
+#: addons/VodPlus/includes/load_css_form.php:20
+#: addons/VodPlus/includes/render_designer_box.php:25
+#: addons/VodPlus/includes/render_designer_box.php:28
+#: admin/includes/load_css_form.php:9 admin/includes/render_designer_box.php:11
+msgid "Default"
+msgstr "Por defecto"
+
+#: addons/VodPlus/includes/load_css_form.php:11
+#: addons/VodPlus/includes/render_designer_box.php:16
+msgid "Attr. Type"
+msgstr "Tipo Atributo"
+
+#: addons/VodPlus/includes/load_css_form.php:13
+#: addons/VodPlus/includes/render_designer_box.php:18
+msgid "href"
+msgstr "href"
+
+#: addons/VodPlus/includes/load_css_form.php:14
+#: addons/VodPlus/includes/render_designer_box.php:19
+msgid "src"
+msgstr "src"
+
+#: addons/VodPlus/includes/load_css_form.php:15
+#: addons/VodPlus/includes/render_designer_box.php:20
+msgid "title"
+msgstr "titulo"
+
+#: addons/VodPlus/includes/load_css_form.php:16
+#: addons/VodPlus/includes/render_designer_box.php:21
+msgid "style"
+msgstr "estilo"
+
+#: addons/VodPlus/includes/load_css_form.php:17
+#: addons/VodPlus/includes/render_designer_box.php:22
+msgid "spellcheck"
+msgstr "corrector"
+
+#: addons/VodPlus/includes/load_css_form.php:18
+#: addons/VodPlus/includes/render_designer_box.php:23
+msgid "class"
+msgstr "clase"
+
+#: addons/VodPlus/includes/render_designer_box.php:8
+#: admin/includes/render_designer_box.php:8
+msgid "Please enter the name of the variable and type."
+msgstr "Por favor, introduzca el nombre de la variable y el tipo."
+
+#: addons/VodPlus/includes/render_designer_box.php:9
+#: admin/includes/render_designer_box.php:9
+msgid "Done"
+msgstr "Hecho"
+
+#: addons/VodPlus/includes/render_designer_box.php:11
+msgid "Attribute"
+msgstr "Atributo"
+
+#: addons/VodPlus/includes/render_designer_box.php:12
+msgid "Css value"
+msgstr "Valor css"
+
+#: addons/VodPlus/includes/render_designer_box.php:13
+msgid "List of options"
+msgstr "Lista de opciones"
+
+#: addons/VodPlus/includes/render_designer_box.php:34
+#: admin/includes/render_designer_box.php:13
+msgid "Text editor"
+msgstr "Editor de texto"
+
+#: addons/VodPlus/load-addon.php:131 public/includes/functions.php:391
+msgid "Insert a media image"
+msgstr "Insertar una imagen multimedia"
+
+#: addons/VodPlus/load-addon.php:132 public/includes/functions.php:392
+msgid "Insert image"
+msgstr "Insertar imagen"
+
+#: addons/VodPlus/load-addon.php:133 admin/includes/functions.php:725
+#: public/includes/functions.php:393
+msgid "Preview"
+msgstr "Previsualizar"
+
+#: addons/VodPlus/load-addon.php:199 admin/includes/dialog_translate.php:19
+msgid "Export All"
+msgstr "Exportar Todo"
+
+#: admin/includes/btn_font_awesome_constructor.php:15
+msgid "Font Awesome 4.7 (675 icons)"
+msgstr "Font Awesome 4.7 (675 icons)"
+
+#: admin/includes/btn_font_awesome_constructor.php:26
+msgid "Invert default color"
+msgstr "Invertir color predeterminado"
+
+#: admin/includes/contextual_translate.php:7 public/includes/vod/toolbar.php:79
+msgid "Static"
+msgstr "Estático"
+
+#: admin/includes/contextual_translate.php:8 public/includes/vod/toolbar.php:77
+#: public/includes/vod/toolbar.php:80
+msgid "Absolute"
+msgstr "Absoluto"
+
+#: admin/includes/contextual_translate.php:9 public/includes/vod/toolbar.php:82
+msgid "Relative"
+msgstr "Relativo"
+
+#: admin/includes/contextual_translate.php:10
+#: public/includes/vod/toolbar.php:81
+msgid "Fixed"
+msgstr "Fijo"
+
+#: admin/includes/contextual_translate.php:12
+msgid "As Background"
+msgstr "Como fondo"
+
+#: admin/includes/contextual_translate.php:13
+msgid "Remove property"
+msgstr "Eliminar propiedad"
+
+#: admin/includes/contextual_translate.php:16
+msgid "Visible"
+msgstr "Visible"
+
+#: admin/includes/contextual_translate.php:18
+msgid "Scroll"
+msgstr "Desplazamiento"
+
+#: admin/includes/contextual_translate.php:21
+msgid "Background image"
+msgstr "Imagen de fondo"
+
+#: admin/includes/contextual_translate.php:23
+msgid "Blend mode"
+msgstr "Modo de mezcla"
+
+#: admin/includes/contextual_translate.php:25
+msgid "Multipy"
+msgstr "Multiplicar"
+
+#: admin/includes/contextual_translate.php:26
+msgid "Screen"
+msgstr "Pantalla"
+
+#: admin/includes/contextual_translate.php:27
+msgid "Overlay"
+msgstr "Cubrir"
+
+#: admin/includes/contextual_translate.php:28
+msgid "Darken"
+msgstr "Oscurecer"
+
+#: admin/includes/contextual_translate.php:29
+msgid "Lighten"
+msgstr "Aclarar"
+
+#: admin/includes/contextual_translate.php:30
+msgid "Color dodge"
+msgstr "Color dodge"
+
+#: admin/includes/contextual_translate.php:31
+msgid "Saturation"
+msgstr "Saturación"
+
+#: admin/includes/contextual_translate.php:33
+msgid "Luminosity"
+msgstr "Luminosidad"
+
+#: admin/includes/contextual_translate.php:35
+msgid "Left top"
+msgstr "Arriba a la izquierda"
+
+#: admin/includes/contextual_translate.php:36
+msgid "Left center"
+msgstr "Centro izquierdo"
+
+#: admin/includes/contextual_translate.php:37
+msgid "Left bottom"
+msgstr "Abajo a la izquierda"
+
+#: admin/includes/contextual_translate.php:38
+msgid "Right top"
+msgstr "Arriba a la derecha"
+
+#: admin/includes/contextual_translate.php:39
+msgid "Right center"
+msgstr "Centro derecho"
+
+#: admin/includes/contextual_translate.php:40
+msgid "Right bottom"
+msgstr "Abajo a la derecha"
+
+#: admin/includes/contextual_translate.php:41
+msgid "Center top"
+msgstr "Centro superior"
+
+#: admin/includes/contextual_translate.php:43
+msgid "Center bottom"
+msgstr "Centro inferior"
+
+#: admin/includes/contextual_translate.php:45
+msgid "X"
+msgstr "X"
+
+#: admin/includes/contextual_translate.php:46
+msgid "Y"
+msgstr "Y"
+
+#: admin/includes/contextual_translate.php:50
+msgid "Custom"
+msgstr "Personalizado"
+
+#: admin/includes/contextual_translate.php:53
+msgid "Cover"
+msgstr "Cubrir"
+
+#: admin/includes/contextual_translate.php:54
+msgid "Contain"
+msgstr "Contener"
+
+#: admin/includes/contextual_translate.php:55
+#: admin/includes/contextual_translate.php:184
+#: admin/includes/img_box_model_constructor.php:12
+msgid "Width"
+msgstr "Ancho"
+
+#: admin/includes/contextual_translate.php:56
+#: admin/includes/contextual_translate.php:185
+#: admin/includes/img_box_model_constructor.php:11
+msgid "Height"
+msgstr "Altura"
+
+#: admin/includes/contextual_translate.php:58
+msgid "Repetition"
+msgstr "Repetición"
+
+#: admin/includes/contextual_translate.php:59
+msgid "Repeat"
+msgstr "Repetir"
+
+#: admin/includes/contextual_translate.php:60
+msgid "Reapet x"
+msgstr "Repetir x"
+
+#: admin/includes/contextual_translate.php:61
+msgid "Reapet y"
+msgstr "Repetir y"
+
+#: admin/includes/contextual_translate.php:62
+msgid "No repeat"
+msgstr "Sin repetir"
+
+#: admin/includes/contextual_translate.php:64
+msgid "Attachment"
+msgstr "Fijación"
+
+#: admin/includes/contextual_translate.php:65
+msgid "Local"
+msgstr "Local"
+
+#: admin/includes/contextual_translate.php:67
+msgid "Origin"
+msgstr "Origen"
+
+#: admin/includes/contextual_translate.php:68
+msgid "Padding Box"
+msgstr "Relleno de la caja"
+
+#: admin/includes/contextual_translate.php:69
+msgid "Border Box"
+msgstr "Borde de la caja"
+
+#: admin/includes/contextual_translate.php:70
+msgid "Content Box"
+msgstr "Contenido de la caja"
+
+#: admin/includes/contextual_translate.php:72
+msgid "Remove"
+msgstr "retirar"
+
+#: admin/includes/contextual_translate.php:73
+#: classes/class.Forms_List_Table.php:112
+#: classes/class.Forms_List_Table.php:163
+msgid "Delete"
+msgstr "Borrar"
+
+#: admin/includes/contextual_translate.php:76
+msgid "Parent"
+msgstr "Padre"
+
+#: admin/includes/contextual_translate.php:154
+msgid "Select"
+msgstr "Seleccionar"
+
+#: admin/includes/contextual_translate.php:155
+msgid "Add to selected"
+msgstr "Añadir a la selección"
+
+#: admin/includes/contextual_translate.php:156
+msgid "Remove from selected"
+msgstr "Eliminar de la selección"
+
+#: admin/includes/contextual_translate.php:159
+msgid "Inline"
+msgstr "En línea"
+
+#: admin/includes/contextual_translate.php:160
+msgid "Block"
+msgstr "Bloque"
+
+#: admin/includes/contextual_translate.php:162
+msgid "Inline block"
+msgstr "Bloque en línea"
+
+#: admin/includes/contextual_translate.php:164
+msgid "Inline table"
+msgstr "Tabla en línea"
+
+#: admin/includes/contextual_translate.php:165
+msgid "List item"
+msgstr "Elemento de la lista"
+
+#: admin/includes/contextual_translate.php:166
+msgid "Run in"
+msgstr "Correr en"
+
+#: admin/includes/contextual_translate.php:167
+msgid "Table"
+msgstr "Tabla"
+
+#: admin/includes/contextual_translate.php:168
+msgid "Table caption"
+msgstr "Título de la tabla"
+
+#: admin/includes/contextual_translate.php:169
+msgid "Table column group"
+msgstr "Grupo de columnas de tabla"
+
+#: admin/includes/contextual_translate.php:170
+msgid "Table header group"
+msgstr "Grupo de encabezado de tabla"
+
+#: admin/includes/contextual_translate.php:171
+msgid "Table footer group"
+msgstr "Grupo de pie de tabla"
+
+#: admin/includes/contextual_translate.php:172
+msgid "Table row group"
+msgstr "Grupo de filas de la tabla"
+
+#: admin/includes/contextual_translate.php:173
+msgid "Table cell"
+msgstr "Celda de tabla"
+
+#: admin/includes/contextual_translate.php:174
+msgid "Table Column"
+msgstr "Columna de la tabla"
+
+#: admin/includes/contextual_translate.php:175
+msgid "Table row"
+msgstr "Fila de la tabla"
+
+#: admin/includes/contextual_translate.php:177
+msgid "Float"
+msgstr "Flotar"
+
+#: admin/includes/contextual_translate.php:178
+msgid "Clear"
+msgstr "Limpiar"
+
+#: admin/includes/contextual_translate.php:181
+#: admin/includes/img_box_model_constructor.php:15
+msgid "Left"
+msgstr "Izquierda"
+
+#: admin/includes/contextual_translate.php:182
+#: admin/includes/img_box_model_constructor.php:16
+msgid "Right"
+msgstr "Derecha"
+
+#: admin/includes/contextual_translate.php:183
+msgid "Both"
+msgstr "Ambos"
+
+#: admin/includes/contextual_translate.php:186
+#: admin/includes/img_box_model_constructor.php:276
+msgid "Box Shadow"
+msgstr "Sombra de la caja"
+
+#: admin/includes/contextual_translate.php:188
+msgid "Box Sizing"
+msgstr "Tamaño de la caja"
+
+#: admin/includes/contextual_translate.php:189
+msgid "Margin Top"
+msgstr "Margen superior"
+
+#: admin/includes/contextual_translate.php:190
+msgid "Contextual menu"
+msgstr "Menú contextual"
+
+#: admin/includes/contextual_translate.php:191
+msgid "Background color"
+msgstr "Color de fondo"
+
+#: admin/includes/contextual_translate.php:192
+msgid "Margin bottom"
+msgstr "Margen inferior"
+
+#: admin/includes/contextual_translate.php:193
+msgid "Margin left"
+msgstr "margen izquierdo"
+
+#: admin/includes/contextual_translate.php:194
+msgid "Margin right"
+msgstr "Margen derecho"
+
+#: admin/includes/contextual_translate.php:195
+msgid "Padding top"
+msgstr "Relleno superior"
+
+#: admin/includes/contextual_translate.php:196
+msgid "Padding bottom"
+msgstr "Relleno inferior"
+
+#: admin/includes/contextual_translate.php:197
+msgid "Padding left"
+msgstr "Relleno a la izquierda"
+
+#: admin/includes/contextual_translate.php:198
+msgid "Padding right"
+msgstr "Relleno a la derecha"
+
+#: admin/includes/contextual_translate.php:199
+msgid "Border top width"
+msgstr "Ancho superior del borde"
+
+#: admin/includes/contextual_translate.php:200
+msgid "Border bottom width"
+msgstr "Ancho inferior del borde"
+
+#: admin/includes/contextual_translate.php:201
+msgid "Border left width"
+msgstr "Ancho del borde izquierdo"
+
+#: admin/includes/contextual_translate.php:202
+msgid "Border right width"
+msgstr "Ancho del borde derecho"
+
+#: admin/includes/dialog_translate.php:6
+msgid ""
+"Name may consist of a-z, 0-9, underscores, spaces and must begin with a "
+"letter."
+msgstr ""
+"El nombre puede consistir de a-z, 0-9, subrayados, espacios y debe comenzar "
+"con una letra."
+
+#: admin/includes/dialog_translate.php:7 admin/includes/functions.php:680
+msgid "Create new form"
+msgstr "Crear nuevo formulario"
+
+#: admin/includes/dialog_translate.php:8
+msgid "Clone form"
+msgstr "Clonar Formulario"
+
+#: admin/includes/dialog_translate.php:9
+msgid "Create form"
+msgstr "Crear formulario"
+
+#: admin/includes/dialog_translate.php:10
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: admin/includes/dialog_translate.php:18
+msgid "Working ..."
+msgstr "Trabajando ..."
+
+#: admin/includes/functions.php:8
+msgid ""
+" Congratulations! You are about to use most powerful time saver to give "
+"style your login page and build Sortcodes in WordPress - WP login control is "
+"a powerful object-oriented plugin with Frontend real time editor by Forsys "
+"Software."
+msgstr ""
+"¡Felicidades! Está a punto de utilizar el plugin de Wordpress más potente "
+"para dar estilo a su página de inicio de sesión y construir códigos breves "
+"( shortcodes ). WP login control es un potente complemento orientado a "
+"objetos con un editor Frontend  en tiempo real de Forsys Software."
+
+#: admin/includes/functions.php:14
+msgid "WP Login Control plugin help resources:"
+msgstr "WP Login Control, recursos de ayuda del plugin:"
+
+#: admin/includes/functions.php:16
+msgid "Open the documentation"
+msgstr "Abrir la documentación"
+
+#: admin/includes/functions.php:16
+msgid "Documentation"
+msgstr "Documentación"
+
+#: admin/includes/functions.php:17
+msgid "Open Video Tutorials"
+msgstr "Abrir vídeo tutoriales"
+
+#: admin/includes/functions.php:17
+msgid "Video Tutorials"
+msgstr " Vídeo Tutoriales"
+
+#: admin/includes/functions.php:18
+msgid "Open Plugin Site"
+msgstr "Abrir sitio del Plugin"
+
+#: admin/includes/functions.php:18
+msgid "WP Login Control Site - FORSYS SOFTWARE S.L."
+msgstr "WP Login Control Site - FORSYS SOFTWARE S.L."
+
+#: admin/includes/functions.php:26
+msgid "Version 2.0"
+msgstr "Versión 2.0"
+
+#: admin/includes/functions.php:28 admin/includes/functions.php:136
+#: admin/includes/functions.php:231 admin/includes/functions.php:315
+msgid "NEW"
+msgstr "NUEVO"
+
+#: admin/includes/functions.php:31
+msgid "Shortcode Builder."
+msgstr "Constructor de Shortcodes."
+
+#: admin/includes/functions.php:34
+msgid "800+ Google Fonts."
+msgstr "800+ Fuentes Google."
+
+#: admin/includes/functions.php:37
+msgid "Font Awesome 4.7 , 675 icons."
+msgstr "Fuentes Awesome 4.7 , 675 iconos."
+
+#: admin/includes/functions.php:40
+msgid "Templates ( Export / Import )."
+msgstr "Plantillas ( Exportar / Importar )"
+
+#: admin/includes/functions.php:43
+msgid "9 tag elements for shortcode Builder and Login Page."
+msgstr ""
+"9 elementos de tipo etiqueta para el diseñador de shortcodes y la página de "
+"inicio de sesión."
+
+#: admin/includes/functions.php:58
+msgid "Move, drag and drop."
+msgstr "Mover, arrastrar y soltar."
+
+#: admin/includes/functions.php:61
+msgid ""
+"Variables: {content} and user defined ( of type text and attibute ) , for "
+"Shortcode Builder."
+msgstr ""
+"Variables: {contenido} y definidas por el usuario (de tipo texto y "
+"atributo), para el Creador de shortcodes."
+
+#: admin/includes/functions.php:64
+msgid "Cron for Shortcodes."
+msgstr "Cron para Shortcodes."
+
+#: admin/includes/functions.php:67
+msgid "Flexible Box, CSS property."
+msgstr "Flexible Box, propiedad CSS."
+
+#: admin/includes/functions.php:70
+msgid "Columns, CSS property."
+msgstr "Columns, propiedad CSS."
+
+#: admin/includes/functions.php:73
+msgid "Lists, CSS property."
+msgstr "Lists, propiedad CSS"
+
+#: admin/includes/functions.php:76
+msgid "Box shadow, CSS property."
+msgstr "Box shadow, propiedad CSS."
+
+#: admin/includes/functions.php:79
+msgid "Display, CSS property."
+msgstr "Display, propiedad CSS"
+
+#: admin/includes/functions.php:82
+msgid "Float, CSS property."
+msgstr "Float, propiedad CSS."
+
+#: admin/includes/functions.php:85
+msgid "Clear, CSS property."
+msgstr "Clear, propiedad CSS."
+
+#: admin/includes/functions.php:88
+msgid "Vertical align, CSS property."
+msgstr "Alineación vertical, propiedad CSS."
+
+#: admin/includes/functions.php:91
+msgid "Added remove property."
+msgstr "Se ha añadido eliminar propiedades."
+
+#: admin/includes/functions.php:94
+msgid ""
+"Background pattern for a better experience in the opacity of the elements."
+msgstr ""
+"Patrón de fondo para una mejor experiencia en la opacidad de los elementos."
+
+#: admin/includes/functions.php:97
+msgid "Now you can chose position when an element is created."
+msgstr "Ahora puede elegir la posición cuando se crea un elemento."
+
+#: admin/includes/functions.php:100
+msgid "You can edit tags and write inside ( as many text nodes as you want )."
+msgstr ""
+"Puede editar etiquetas y escribir en su interior (tantos nodos de texto como "
+"desee)."
+
+#: admin/includes/functions.php:104 admin/includes/functions.php:198
+#: admin/includes/functions.php:268
+msgid "CHANGES"
+msgstr "CAMBIOS"
+
+#: admin/includes/functions.php:107
+msgid "Now you can delete items by pressing the \"Delete\" key."
+msgstr "Ahora puede eliminar elementos pulsando la tecla \"Supr\"."
+
+#: admin/includes/functions.php:110
+msgid ""
+"When we create a new form we will have to choose between Login -> Default "
+"Page and Shortcode Object -> Blank Page."
+msgstr ""
+"Cuando creamos un nuevo formulario tendremos que escoger entre Login -> "
+"Default Page y Shortcode Object -> Blank Page"
+
+#: admin/includes/functions.php:113
+msgid "Added a \"Hex\" input box for color tools."
+msgstr "Se agregó un cuadro de entrada \"Hex\" para las herramientas de color."
+
+#: admin/includes/functions.php:116
+msgid "Minor improvements in toolboxes."
+msgstr "Mejoras menores en las cajas de herramientas."
+
+#: admin/includes/functions.php:120 admin/includes/functions.php:182
+#: admin/includes/functions.php:219 admin/includes/functions.php:290
+#: admin/includes/functions.php:304
+msgid "BUGFIXES"
+msgstr "CORRECCIÓN DE ERRORES"
+
+#: admin/includes/functions.php:123
+msgid ""
+"Removed Shortcode from \"Default Login\", this option will be available in "
+"\"Custom Login\"."
+msgstr ""
+"Se eliminó el Shortcode de \"Default Login\", esta opción estará disponible "
+"en \"Custom Login\"."
+
+#: admin/includes/functions.php:126
+msgid ""
+"Solved some errors with the units (%, px) when moving and minor errors in "
+"Input Boxes."
+msgstr ""
+"Resuelto algunos errores con las unidades (%, px) al mover y errores menores "
+"en cajas de entrada."
+
+#: admin/includes/functions.php:129
+msgid "Some minor CSS errors."
+msgstr "Algunos errores menores de CSS."
+
+#: admin/includes/functions.php:134
+msgid "Version 1.4"
+msgstr "Versión 1.4"
+
+#: admin/includes/functions.php:139
+msgid "Individual images can now be inserted."
+msgstr "Ahora se pueden insertar imágenes individuales."
+
+#: admin/includes/functions.php:142
+msgid "A new toggle buttons option form has been added."
+msgstr ""
+"Se ha añadido un nuevo formulario de opciones, con botones de conmutación."
+
+#: admin/includes/functions.php:145
+msgid "Hide the login error message."
+msgstr "Ocultar el mensaje de error de inicio de sesión."
+
+#: admin/includes/functions.php:148
+msgid "Hide \"Remember Me\"."
+msgstr "Ocultar \"Recordarme\"."
+
+#: admin/includes/functions.php:151
+msgid "Hide log in | Lost password link."
+msgstr "Ocultar conectarse | Link contraseña perdida."
+
+#: admin/includes/functions.php:154
+msgid "Hide the \"Back to\" link."
+msgstr "Ocultar el enlace \"Volver a\"."
+
+#: admin/includes/functions.php:157
+msgid "Remove the login page shake."
+msgstr "Eliminar la sacudida de la página de inicio de sesión."
+
+#: admin/includes/functions.php:160
+msgid "Set \"Remember Me\" to checked."
+msgstr "Establecer \"Recordarme\" a seleccionado."
+
+#: admin/includes/functions.php:163
+msgid "Now, you can style the error message and message when disconnected."
+msgstr "Ahora, puede diseñar el mensaje de error y el mensaje de desconexión."
+
+#: admin/includes/functions.php:166
+msgid "Now, you can style the \"Lost your password Form\"."
+msgstr "Ahora, puede diseñar el \"Formulario de contraseña perdida\"."
+
+#: admin/includes/functions.php:169
+msgid "Now, you can style the \"Register Form\"."
+msgstr "Ahora, puede diseñar el \"formulario de registro\"."
+
+#: admin/includes/functions.php:172
+msgid "Custom CSS editor for advanced users."
+msgstr "Editor CSS personalizado para usuarios avanzados."
+
+#: admin/includes/functions.php:175
+msgid "Edit Logo Title and Logo Link."
+msgstr "Edite el título del logotipo y el vínculo del logotipo."
+
+#: admin/includes/functions.php:178
+msgid "Support for \"Font Awesome 4.7.0\" through the css editor."
+msgstr "Soporte para \"Font Awesome 4.7.0\" a través del editor css."
+
+#: admin/includes/functions.php:185
+msgid "Fixed error loading preview of new forms."
+msgstr ""
+"Corregido el error al cargar la vista previa de los nuevos formularios."
+
+#: admin/includes/functions.php:188
+msgid "Fixed preview when cloning."
+msgstr "Se corrigió la vista previa al clonar."
+
+#: admin/includes/functions.php:191
+msgid ""
+"Fixed an error with the background color of the body, which appeared in the "
+"previous revision."
+msgstr ""
+"Corregido un error con el color de fondo del cuerpo, que apareció en la "
+"revisión anterior."
+
+#: admin/includes/functions.php:196
+msgid "Version 1.3 rev.02"
+msgstr "Versión 1.3 rev.02"
+
+#: admin/includes/functions.php:201
+msgid "Changes to include this plugin in the WordPress.org directory."
+msgstr "Cambios para incluir este plugin en el directorio WordPress.org."
+
+#: admin/includes/functions.php:204
+msgid "Deleted Premium icons in free version to be compatible with GPL."
+msgstr ""
+"Iconos Premium eliminados en versión gratuita para ser compatibles con GPL."
+
+#: admin/includes/functions.php:207
+msgid ""
+"Validations in the javascript interface, for better experience and stability."
+msgstr ""
+"Validaciones en la interfaz javascript, para una mejor experiencia y "
+"estabilidad."
+
+#: admin/includes/functions.php:210
+msgid ""
+"Names of functions, defines, classnames, hooks, nonces, etc. have been "
+"changed to coexist with other plugins."
+msgstr ""
+"Los nombres de funciones, defines, nombres de clase, hooks, nonces, etc. se "
+"han cambiado para coexistir con otros plugins."
+
+#: admin/includes/functions.php:213
+msgid "Improvements in the text shadows tool."
+msgstr "Mejoras en la herramienta Sombras de texto."
+
+#: admin/includes/functions.php:217
+msgid "Version 1.3 rev.01"
+msgstr "Versión 1.3 rev.01"
+
+#: admin/includes/functions.php:222
+msgid ""
+"Fixed error in some files that caused that only the interface in Spanish was "
+"shown."
+msgstr ""
+"Corregido un error en algunos archivos que causaba que sólo se mostrara la "
+"interfaz en español."
+
+#: admin/includes/functions.php:225
+msgid "Fixed minor translations in login page."
+msgstr "Correcciones de traducción menores en la página de inicio de sesión."
+
+#: admin/includes/functions.php:229
+msgid "Version 1.3"
+msgstr "Versión 1.3"
+
+#: admin/includes/functions.php:234
+msgid "First version of the VOD PLUS add-on (Premium)."
+msgstr "Primera versión del complemento VOD PLUS ( Premium )."
+
+#: admin/includes/functions.php:237
+msgid "The CSS property \"Background-size\" has been added."
+msgstr "Se ha añadido la  propiedad CSS \"Background-size\". "
+
+#: admin/includes/functions.php:240
+msgid "The CSS property \"Background-origin\" has been added."
+msgstr "Se ha añadido la  propiedad CSS \"Background-origin\". "
+
+#: admin/includes/functions.php:243
+msgid ""
+"The CSS property \"Background-Blend\" has been added. \"Edge\" does not "
+"support this property."
+msgstr ""
+"Se ha añadido la propiedad CSS \"Background-blend\".  \"Edge\" no soporta "
+"esta propiedad. "
+
+#: admin/includes/functions.php:246
+msgid ""
+"Added 15 new CSS Text and Font properties, some of them only in (Premium "
+"Version)."
+msgstr ""
+"Se ha añadido 15 nuevas propiedades CSS de Texto y Fuente, alguna de ellas "
+"solo en (Versión Premium)."
+
+#: admin/includes/functions.php:271
+msgid "Improvements in the combo boxes, a custom one has been created."
+msgstr "Mejoras en los cuadros combinados, se ha creado uno personalizado."
+
+#: admin/includes/functions.php:274
+msgid "9 values have been added in the CSS property \"Background-position\"."
+msgstr "Se ha añadido 9 valores en la  propiedad CSS \"Background-position\"."
+
+#: admin/includes/functions.php:277
+msgid "4 values have been added in the CSS property \"Background-repeat\"."
+msgstr "Se ha añadido 4 valores en la  propiedad CSS \"Background-repeat\"."
+
+#: admin/includes/functions.php:280
+msgid "3 values have been added in the CSS property \"Background-attachment\"."
+msgstr ""
+"Se ha añadido 3 valores en la  propiedad CSS \"Background-attachment\"."
+
+#: admin/includes/functions.php:283
+msgid "Secondary toolboxes can now be expanded and collapsed in each section."
+msgstr ""
+"Las cajas de herramientas secundarias ahora se pueden expandir y contraer en "
+"cada sección."
+
+#: admin/includes/functions.php:286
+msgid ""
+"Toolboxes are now automatically updated when an object is selected or when "
+"the hover button is pressed."
+msgstr ""
+"Ahora las cajas de herramientas se actualizan automáticamente  al "
+"seleccionar un objeto o al pulsar el botón \"hover\"."
+
+#: admin/includes/functions.php:293
+msgid ""
+"When you save the changes, you no longer lose the selection of the selected "
+"items."
+msgstr ""
+"Al guardar los cambios, ya no se pierde la selección de los elementos "
+"seleccionados."
+
+#: admin/includes/functions.php:296
+msgid "Fixed some css errors in the generation of the external css file."
+msgstr "Solucionados algunos errores en la generación del fichero CSS externo."
+
+#: admin/includes/functions.php:299
+msgid "Fixed errors when setting and deleting background images."
+msgstr "Solucionados errores al establecer y eliminar imágenes de fondo."
+
+#: admin/includes/functions.php:303
+msgid "Version 1.0 rev.02"
+msgstr "Versión 1.0 rev.02"
+
+#: admin/includes/functions.php:307
+msgid ""
+"4 errors in the CSS code that affected the toolbox. With these fixes, Edge "
+"and Safari work correctly."
+msgstr ""
+"4 errores en el código CSS que afectaban a la caja de herramientas. Con "
+"estas correcciones, Edge y Safari funcionan correctamente."
+
+#: admin/includes/functions.php:310
+msgid ""
+"Error in the flip buttons, which caused the toolboxes to also flip when "
+"applied to the Body element (DESIGNAREA)."
+msgstr ""
+"Error en los botones de desplazamiento, que provocaba que las cajas de "
+"herramientas también se voltearan cuando se aplicaba al elemento Body "
+"(DESIGNAREA)."
+
+#: admin/includes/functions.php:314
+msgid "Version 1.0"
+msgstr "Versión 1.0"
+
+#: admin/includes/functions.php:318
+msgid "This is first release, enjoy it."
+msgstr "Esta es la primera versión, disfrútala."
+
+#: admin/includes/functions.php:408 admin/includes/login-render-fs.php:65
+#: admin/includes/login-render-fs.php:83
+msgid "Username or Email Address"
+msgstr "Nombre de usuario o dirección de correo electrónico"
+
+#: admin/includes/functions.php:412 admin/includes/login-render-fs.php:69
+msgid "Password"
+msgstr "Contraseña"
+
+#: admin/includes/functions.php:415 admin/includes/login-render-fs.php:73
+msgid "Remember Me"
+msgstr "Recuérdame"
+
+#: admin/includes/functions.php:417 admin/includes/functions.php:421
+#: admin/includes/login-render-fs.php:75 admin/includes/login-render-fs.php:126
+#: admin/includes/login-render-fs.php:128
+msgid "Log in"
+msgstr "Iniciar sesión"
+
+#: admin/includes/functions.php:421 admin/includes/login-render-fs.php:132
+#: admin/includes/login-render-fs.php:137
+msgid "Lost your password?"
+msgstr "¿Perdiste tu contraseña?"
+
+#: admin/includes/functions.php:649
+msgid "Shortcodes and Login Forms"
+msgstr "Shortcodes y formularios de inicio de sesión"
+
+#: admin/includes/functions.php:651
+msgid "New Design"
+msgstr "Nuevo Diseño"
+
+#: admin/includes/functions.php:652
+msgid "Import File"
+msgstr "Importar Archivo"
+
+#: admin/includes/functions.php:681
+msgid "Only form name is required."
+msgstr "Sólo se requiere el nombre del formulario."
+
+#: admin/includes/functions.php:684 classes/class.Forms_List_Table.php:133
+msgid "Name"
+msgstr "Nombre"
+
+#: admin/includes/functions.php:685
+msgid "Form name"
+msgstr "Nombre del formulario"
+
+#: admin/includes/functions.php:710
+msgid "Not avalaible"
+msgstr "No disponible"
+
+#: admin/includes/functions.php:716
+msgid "Create Form"
+msgstr "Crear formulario"
+
+#: admin/includes/functions.php:722
+msgid "Clone Form"
+msgstr "Clonar formulario"
+
+#: admin/includes/img_box_border_constructor.php:7
+msgid "Radius"
+msgstr "Radio"
+
+#: admin/includes/img_box_border_constructor.php:10
+#: admin/includes/img_box_model_constructor.php:7
+#: admin/includes/img_color_picker_constructor.php:18
+msgid "Border"
+msgstr "Borde"
+
+#: admin/includes/img_box_border_constructor.php:15
+msgid "Corner Roundness"
+msgstr "Redondeo de esquina"
+
+#: admin/includes/img_box_model_constructor.php:6
+msgid "Margin"
+msgstr "Margen"
+
+#: admin/includes/img_box_model_constructor.php:8
+msgid "Padding"
+msgstr "Relleno"
+
+#: admin/includes/img_box_model_constructor.php:9
+msgid "Content"
+msgstr "Contenido"
+
+#: admin/includes/img_box_model_constructor.php:10
+msgid "Sizing"
+msgstr "Dimensionamiento"
+
+#: admin/includes/img_box_model_constructor.php:17
+msgid "Box"
+msgstr "Caja"
+
+#: admin/includes/img_box_model_constructor.php:18
+msgid "Clip"
+msgstr "Acortar"
+
+#: admin/includes/img_box_model_constructor.php:21
+msgid "Box Model"
+msgstr "Modelo de Caja"
+
+#: admin/includes/img_box_model_constructor.php:77
+msgid "Box size"
+msgstr "Tamaño de la caja"
+
+#: admin/includes/img_box_model_constructor.php:86
+#: admin/includes/img_box_model_constructor.php:268
+msgid "Content box"
+msgstr "Contenido de la caja"
+
+#: admin/includes/img_box_model_constructor.php:87
+#: admin/includes/img_box_model_constructor.php:266
+msgid "Border box"
+msgstr "Borde de la caja"
+
+#: admin/includes/img_box_model_constructor.php:148
+msgid "Box position"
+msgstr "Posición de la caja"
+
+#: admin/includes/img_box_model_constructor.php:257
+#: admin/includes/img_color_picker_constructor.php:16
+msgid "Background"
+msgstr "Fondo"
+
+#: admin/includes/img_box_model_constructor.php:267
+msgid "Padding box"
+msgstr "Margen de la caja"
+
+#: admin/includes/img_code_constructor.php:8
+msgid "CSS editor"
+msgstr "Editor CSS"
+
+#: admin/includes/img_code_constructor.php:19
+msgid "Append this code"
+msgstr "Añade este código"
+
+#: admin/includes/img_color_picker_constructor.php:19
+msgid "Text <br> Shadow"
+msgstr "Sombra <br> del texto"
+
+#: admin/includes/img_color_picker_constructor.php:20
+msgid "Box <br> Shadow"
+msgstr "Sombra <br> Caja"
+
+#: admin/includes/img_color_picker_constructor.php:31
+msgid "Whole object"
+msgstr "Todo el objeto"
+
+#: admin/includes/img_color_picker_constructor.php:32
+msgid "Opacity"
+msgstr "Opacidad"
+
+#: admin/includes/img_color_picker_constructor.php:35
+msgid "Transparent"
+msgstr "Transparente"
+
+#: admin/includes/img_marker_constructor.php:8
+msgid ""
+"You must select an object to set the source or right click for the work area"
+msgstr ""
+"Debe seleccionar un objeto para establecer el origen o hacer clic con el "
+"botón derecho para el área de trabajo"
+
+#: admin/includes/img_marker_constructor.php:9
+msgid "Only one object can be the origin"
+msgstr "Sólo un objeto puede ser el origen"
+
+#: admin/includes/img_marker_constructor.php:10
+msgid "The origin has been established"
+msgstr "El origen se ha establecido"
+
+#: admin/includes/img_marker_constructor.php:11
+msgid "The origin has been reset to the work area"
+msgstr "El origen se ha restablecido al área de trabajo"
+
+#: admin/includes/img_text_font_constructor.php:346
+msgid "Font"
+msgstr "Fuente"
+
+#: admin/includes/img_toggle_constructor.php:8
+msgid "Logo"
+msgstr "Logo"
+
+#: admin/includes/img_toggle_constructor.php:17
+msgid "Visibility options"
+msgstr "Opciones de visibilidad"
+
+#: admin/includes/img_toggle_constructor.php:76
+msgid "Show to edit"
+msgstr "Mostrar para editar"
+
+#: admin/includes/load_css_form.php:10
+msgid "Only Premium Version"
+msgstr "Solo versión Premium"
+
+#: admin/includes/login-render-fs.php:53
+msgid "You are now logged out."
+msgstr "Ahora estás desconectado."
+
+#: admin/includes/login-render-fs.php:55
+msgid "<strong>ERROR</strong>: Invalid username or email."
+msgstr ""
+"<strong>ERROR</ strong>: Nombre de usuario o correo electrónico no válido."
+
+#: admin/includes/login-render-fs.php:57
+msgid ""
+"Please enter your username or email address. You will receive a link to "
+"create a new password via email."
+msgstr ""
+"Por favor, introduzca su nombre de usuario o dirección de correo "
+"electrónico. Recibirá un enlace para crear una nueva contraseña por correo "
+"electrónico."
+
+#: admin/includes/login-render-fs.php:58
+msgid "Register For This Site"
+msgstr "Registrarse a este sitio"
+
+#: admin/includes/login-render-fs.php:98
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: admin/includes/login-render-fs.php:102
+msgid "Email"
+msgstr "Email"
+
+#: admin/includes/login-render-fs.php:113
+msgid "Registration confirmation will be emailed to you."
+msgstr ""
+"La confirmación de la inscripción le será enviada por correo electrónico."
+
+#: admin/includes/login-render-fs.php:124
+#: admin/includes/login-render-fs.php:134
+msgid "Register"
+msgstr "Registro"
+
+#: admin/includes/my_upload.php:201
+msgid "All templates loaded, wait while the list is updated."
+msgstr "Todas las plantillas cargadas, espere mientras se actualiza la lista."
+
+#: admin/includes/my_upload.php:203
+msgid "Error loading the templates."
+msgstr "Error al cargar las plantillas."
+
+#: admin/includes/render-menu.php:9 admin/includes/render-menu.php:16
+msgid "Login Forms / Widgets"
+msgstr "Formularios de Inicio de Sesión / Widgets"
+
+#: admin/includes/render-menu.php:10
+msgid "Login Control"
+msgstr "Login Control"
+
+#: admin/includes/render-menu.php:17
+msgid "Forms"
+msgstr "Formularios"
+
+#: admin/includes/render-menu.php:21
+msgid "Welcome to WP Login Control"
+msgstr "Bienvenido a WP Login Control"
+
+#: admin/includes/render-menu.php:22
+msgid "About"
+msgstr "Acerca de"
+
+#: admin/includes/render-menu.php:26
+msgid "Introduction"
+msgstr "Introducción"
+
+#: admin/includes/render-menu.php:31
+msgid "Help"
+msgstr "Ayuda"
+
+#: admin/includes/render-menu.php:36
+msgid "Updates"
+msgstr "Actualizaciones"
+
+#: classes/class.Forms_List_Table.php:49
+msgid "Default Login"
+msgstr "Inicio de sesión predeterminado"
+
+#: classes/class.Forms_List_Table.php:50
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: classes/class.Forms_List_Table.php:70
+msgid "Active"
+msgstr "Activo"
+
+#: classes/class.Forms_List_Table.php:73
+msgid "Inactive"
+msgstr "Inactivo"
+
+#: classes/class.Forms_List_Table.php:76
+msgid "Cron"
+msgstr "Cron"
+
+#: classes/class.Forms_List_Table.php:111
+msgid "Edit"
+msgstr "Editar"
+
+#: classes/class.Forms_List_Table.php:135
+msgid "State"
+msgstr "Estado"
+
+#: classes/class.Forms_List_Table.php:161
+msgid "Activate"
+msgstr "Activar"
+
+#: classes/class.Forms_List_Table.php:162
+msgid "Deactivate"
+msgstr "Desactivar"
+
+#: classes/class.Forms_List_Table.php:164
+msgid "Export"
+msgstr "Exportar"
+
+#: public/includes/vod/toolbar.php:36
+msgid "Tools"
+msgstr "Útiles"
+
+#: public/includes/vod/toolbar.php:73
+msgid "Position when creating"
+msgstr "Posición al crear"
+
+#: public/includes/vod/toolbar.php:114
+msgid "Images - Icons"
+msgstr "Imágenes - Iconos"
+
+#: public/includes/vod/toolbar.php:129
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: public/includes/vod/toolbar.php:174
+msgid "Variables"
+msgstr "Variables"
+
+#: wp-login-control.php:60
+msgid ""
+"This plugin allows you to visualy customize the appearance of the WordPress "
+"Login Screen."
+msgstr ""
+"Este complemento le permite personalizar visualmente la apariencia de la "
+"pantalla de inicio de sesión de WordPress."
+
+#~ msgid ""
+#~ " Congratulations! You are about to use most powerful time saver to give "
+#~ "style your login page in WordPress - WP login control is a powerful "
+#~ "object-oriented plugin with Frontend real time editor by Forsys Software."
+#~ msgstr ""
+#~ "¡Felicidades! Estás a punto de usar el plugin más potente para dar estilo "
+#~ "a tu página de inicio de sesión en WordPress que te ahorrará tiempo y "
+#~ "dinero - WP login control es un complemento orientado a objetos con un "
+#~ "editor Frontend en tiempo real de Forsys Software."
+
+#~ msgid "Version 1.5"
+#~ msgstr "Versión 1.5"
+
+#~ msgid "7 tag elements for shortcode Builder and Login Page."
+#~ msgstr ""
+#~ "7 elementos de etiqueta para el constructor de shortcode y la página de "
+#~ "inicio de sesión."
+
+#~ msgid "Replace code {content} , for Shortcode Builder."
+#~ msgstr "Reemplazo de código {contenido}, para el Generador de shortcodes."
+
+#~ msgid "CSS Flexible Box."
+#~ msgstr "CSS Caja Flexible."
+
+#~ msgid "You can edit tags and write inside."
+#~ msgstr "Puede editar etiquetas y escribir en su interior."
+
+#~ msgid "Login and Widgets Forms"
+#~ msgstr "Formularios de inicio de sesión y Widgets"
+
+#~ msgid "Object"
+#~ msgstr "Objeto"
+
+#~ msgid "Form Name"
+#~ msgstr "Nombre del formulario"
+
+#~ msgid "Replace code"
+#~ msgstr "Var. código"
+
+#~ msgid ""
+#~ "When we create a new form we will have to choose between Login -> Default "
+#~ "Page and <Shotcode Object -> Blank Page."
+#~ msgstr ""
+#~ "Cuando creamos un nuevo formulario tendremos que escoger entre Login -> "
+#~ "Default Page y <Shotcode Object -> Blank Page"
+
+#~ msgid "Deleted Premium icons to be compatible with GPL."
+#~ msgstr "Iconos Premium eliminados para ser compatible con GPL."
+
+#~ msgid "All form fields are required."
+#~ msgstr "Todos los campos del formulario son obligatorios."
+
+#~ msgid "login, widget, custom"
+#~ msgstr "Login, widget, personalizado"
+
+#~ msgid "Text </br> Shadow"
+#~ msgstr "Sombra <br/> del texto"
+
+#~ msgid "HEX"
+#~ msgstr "HEX"
+
+#~ msgid "RGBA"
+#~ msgstr "RGBA"
+
+#~ msgid "Sel."
+#~ msgstr "Selección"
+
+#~ msgid "Box sizing"
+#~ msgstr "Tamaño de caja"
+
+#~ msgid "Welcome to Login Control 1.0"
+#~ msgstr "Bienvenido a Login Control 1.0"
+
+#~ msgid "Set none"
+#~ msgstr "Establecer ninguno"
+
+#~ msgid "Image - Icon"
+#~ msgstr "Imagen - Icono"
+
+#~ msgid "delete"
+#~ msgstr "borrar"
+
+#~ msgid "edit"
+#~ msgstr "editar"
+
+#~ msgid "Background opacity"
+#~ msgstr "Opacidad de fondo"
+
+#~ msgid "All the object"
+#~ msgstr "Todo el objeto"
+
+#~ msgid "All the Object"
+#~ msgstr "Todo el objeto"
+
+#~ msgid "Create new form 2"
+#~ msgstr "ggf"
+
+#~ msgid "Arabic"
+#~ msgstr "Arab"
+
+#~ msgid "Catalan"
+#~ msgstr "Català"
+
+#~ msgid "English (US)"
+#~ msgstr "Anglès"
+
+#~ msgid "French"
+#~ msgstr "Francès"
+
+#~ msgid "Select image"
+#~ msgstr "Seleccionar imagen"
+
+#~ msgid "Old elements"
+#~ msgstr "Elementos antiguos"
+
+#~ msgid "Hex"
+#~ msgstr "Hex"
+
+#~ msgid "This plugin requires WordPress version 3.8.1 or higher."
+#~ msgstr "Este plugin requiere la versión 3.8.1 o superior de WordPress."
+
+#~ msgid "This Database version is iqual or higher."
+#~ msgstr "Esta Base de datos es igual o superior."
+
+#~ msgid "Designer"
+#~ msgstr "Diseñador"
+
+#~ msgid "Object Designer"
+#~ msgstr "Diseñador de Objetos"
+
+#~ msgid "Configuration"
+#~ msgstr "Configuración"
+
+#~ msgid "Elements Box"
+#~ msgstr "Caja de Objetos"
+
+#~ msgid "Tool Box"
+#~ msgstr "Caja de herramientas"
+
+#~ msgid "The Code"
+#~ msgstr "Código"
+
+#~ msgid "Selected boxes"
+#~ msgstr "Cajas selecc."

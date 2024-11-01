@@ -1,0 +1,79 @@
+/* 
+Reset Stylesheet for designArea
+v1.6.1
+Last Updated: 2017-10-02
+Author: Francisco Javier Fortit - http://wplogincontrol.com 
+*/
+
+#designArea *[object=div], #designArea *[object=span], #designArea *[object=p],#designArea *[object=label], #designArea *[object^=h], #designArea *[object=a], #contenteditableBox{
+    /*text-align : left;*/
+    font-family: Arial; /* 'Times New Roman', Consolas */
+
+/*    vertical-align:baseline;*/
+    margin:0;
+    padding:0;
+    outline:0;
+/*    word-break: break-all;*/
+    line-height:1;
+    box-sizing: content-box;
+    max-width: none;
+    min-width: initial;
+    max-height: none;
+    min-height: initial;
+    font-style : normal;
+    text-align : left;
+    font-variant : normal;
+    font-weight : normal;
+    text-transform : none;
+    text-decoration : none;
+}
+
+#designArea *[object=div], #designArea *[object=span], #designArea *[object=p],#designArea *[object=label], #designArea *[object=a], #contenteditableBox{
+    font-size: 16px;
+}
+
+#designArea *[object=h1] {
+    font-size: 36px;
+}
+
+#designArea *[object=h2] {
+    font-size: 30px;
+ }
+ 
+#designArea *[object=h3] {
+    font-size: 24px;
+}
+
+#designArea *[object=h4] {
+    font-size: 20px;
+ }
+
+#designArea *[object=h5] {
+    font-size: 18px;
+}
+
+#designArea *[object=h6] {
+    font-size: 16px;
+ }
+
+#designArea *[object=img], #designArea *[object=i]{
+    margin:0;
+    padding:0;
+    outline:0;
+    max-width: none;
+    min-width: initial;
+    max-height: none;
+    min-height: initial;
+    vertical-align:baseline;
+}
+
+#designArea *[object=li] {
+    margin: 0;
+ }
+/*
+
+
+input, select {
+    vertical-align:middle;
+}
+*/

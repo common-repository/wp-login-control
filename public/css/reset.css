@@ -1,0 +1,80 @@
+/* 
+Reset Stylesheet for front-end - Shortcodes
+v1.6.1
+Last Updated: 2017-10-02
+Author: Francisco Javier Fortit - http://wplogincontrol.com 
+*/
+
+.loin-ctrl div, .loin-ctrl span, .loin-ctrl p, .loin-ctrl label, .loin-ctrl a,
+.loin-ctrl h1, .loin-ctrl h2, .loin-ctrl h3, .loin-ctrl h4, .loin-ctrl h5, .loin-ctrl h6,
+h1.loin-ctrl, h2.loin-ctrl, h3.loin-ctrl, h4.loin-ctrl, h5.loin-ctrl, h6.loin-ctrl,
+div.loin-ctrl, span.loin-ctrl , p.loin-ctrl, label.loin-ctrl, a.loin-ctrl 
+{
+    /*text-align : left;*/
+    font-family: Arial; /* 'Times New Roman', Consolas */
+
+/*    vertical-align:baseline;*/
+    margin:0;
+    padding:0;
+    outline:0;
+/*    word-break: break-all;*/
+    line-height:1;
+    box-sizing: content-box;
+    max-width: none;
+    min-width: initial;
+    max-height: none;
+    min-height: initial;
+    font-style : normal;
+    text-align : left;
+    font-variant : normal;
+    font-weight : normal;
+    text-transform : none;
+    text-decoration : none;
+
+}
+
+
+.loin-ctrl div, .loin-ctrl span, .loin-ctrl p, .loin-ctrl label, .loin-ctrl a,
+div.loin-ctrl, span.loin-ctrl , p.loin-ctrl, label.loin-ctrl, a.loin-ctrl 
+{
+    font-size: 16px;
+}
+
+.loin-ctrl h1, h1.loin-ctrl {
+    font-size: 36px;
+}
+
+.loin-ctrl h2, h2.loin-ctrl {
+    font-size: 30px;
+ }
+ 
+.loin-ctrl h3, h3.loin-ctrl {
+    font-size: 24px;
+}
+
+.loin-ctrl h4, h4.loin-ctrl {
+    font-size: 20px;
+ }
+
+.loin-ctrl h5, h5.loin-ctrl {
+    font-size: 18px;
+}
+
+.loin-ctrl h6, h6.loin-ctrl {
+    font-size: 16px;
+ }
+
+.loin-ctrl img, .loin-ctrl i, img.loin-ctrl, i.loin-ctrl{
+    margin:0;
+    padding:0;
+    outline:0;
+    max-width: none;
+    min-width: initial;
+    max-height: none;
+    min-height: initial;
+    vertical-align:baseline;
+}
+
+.loin-ctrl li, li.loin-ctrl {
+    margin: 0;
+ }
